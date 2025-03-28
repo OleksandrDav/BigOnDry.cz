@@ -1,11 +1,9 @@
 import { useState, useEffect, useCallback } from "react";
-import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
 import { SLIDES } from "../../constants/slides";
 
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const slides = SLIDES;
 
   const nextSlide = useCallback(() => {
@@ -14,10 +12,6 @@ const Home = () => {
 
   const prevSlide = () => {
     setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
-  };
-
-  const goToSlide = (index: number) => {
-    setCurrentSlide(index);
   };
 
   useEffect(() => {
@@ -140,7 +134,6 @@ const Home = () => {
 
 
 
-      
     </div>
   );
 };
