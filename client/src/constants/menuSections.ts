@@ -27,6 +27,7 @@ export const MENU_SECTIONS: MenuSection[] = [
       { name: "Steaming Chambers", path: "/products/steaming-chambers" },
       { name: "Biomass Drying Systems", path: "/products/biomass-drying" },
       { name: "Spare parts and Assistance", path: "/products/spare-parts" },
+      
     ],
   },
   {

@@ -50,6 +50,7 @@
   justify-content: center;
   align-items: center;
   animation: menuSlideIn 0.5s ease;
+  overflow-y: auto;
 }
 
 .menuContent {
