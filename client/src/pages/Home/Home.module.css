@@ -1,0 +1,146 @@
+.home {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Герой-секция */
+  .hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1200x400');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 40px;
+  }
+  
+  /* Секции */
+  .sectionTitle {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Преимущества */
+  .features {
+    margin: 60px 0;
+  }
+  
+  .featuresGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  .featureCard {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .featureCard h3 {
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  /* Продукты */
+  .featuredProducts {
+    margin: 60px 0;
+  }
+  
+  .productsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .productCard {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .productCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .productLink {
+    display: inline-block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .productLink:hover {
+    text-decoration: underline;
+  }
+  
+  .allProductsLink {
+    display: block;
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .allProductsLink:hover {
+    text-decoration: underline;
+  }
+  
+  /* Новости */
+  .latestNews {
+    margin: 60px 0;
+  }
+  
+  .newsList {
+    display: grid;
+    gap: 30px;
+  }
+  
+  .newsItem {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+  }
+  
+  .newsItem h3 a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .newsItem h3 a:hover {
+    color: #007bff;
+  }
+  
+  .newsDate {
+    color: #666;
+    font-size: 0.9rem;
+    margin: 5px 0;
+  }
+  
+  .newsExcerpt {
+    color: #555;
+  }
+  
+  .allNewsLink {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .allNewsLink:hover {
+    text-decoration: underline;
+  }

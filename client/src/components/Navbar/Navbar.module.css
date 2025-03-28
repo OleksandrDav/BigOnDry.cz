@@ -1,0 +1,157 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+    height: 80px;
+}
+
+.navbar.menuOpen {
+    background-color: rgb(114, 15, 60) !important;
+}
+
+.navbar.scrolled {
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo img {
+    height: 50px;
+    transition: all 0.3s ease;
+}
+/* Full-screen menu */
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(114, 15, 60);
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    padding-top: 100px;
+    overflow-y: auto;
+}
+
+.menu.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menuContent {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    color: white;
+}
+
+/* Wide screen columns layout */
+.menuColumns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.menuColumn {
+    padding: 1rem;
+}
+
+.menuTitle {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.menuList {
+    list-style: none;
+}
+
+.menuList li {
+    margin-bottom: 0.8rem;
+}
+
+.menuLink {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: all 0.2s ease;
+}
+
+.menuLink:hover {
+    color: #f8f8f8;
+    text-decoration: underline;
+}
+
+/* Mobile accordion layout */
+.menuAccordion {
+    display: none;
+    width: 100%;
+}
+
+.accordionItem {
+    margin-bottom: 1rem;
+}
+
+.accordionTitle {
+    font-size: 1.3rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.accordionTitle::-webkit-details-marker {
+    display: none;
+}
+
+.accordionTitle:after {
+    content: "+";
+    float: right;
+    transition: transform 0.3s ease;
+}
+
+.accordionItem[open] .accordionTitle:after {
+    transform: rotate(45deg);
+}
+
+.accordionList li {
+    margin-bottom: 0.8rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .menuColumns {
+        display: none;
+    }
+
+    .menuAccordion {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo img {
+        height: 40px;
+    }
+
+    .menuContent {
+        padding: 0 1rem;
+    }
+}
