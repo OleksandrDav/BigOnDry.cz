@@ -48,9 +48,11 @@
   z-index: 1000; /* Slightly lower than navbar to ensure header is on top */
   display: flex;
   justify-content: center;
-  align-items: center;
-  animation: menuSlideIn 0.5s ease;
+  animation: menuSlideIn 0.5s ease;  
   overflow-y: auto;
+  padding-top: 15rem; /* Высота навбара */
+  padding-bottom: 2rem;
+  align-items: flex-start;
 }
 
 .menuContent {
