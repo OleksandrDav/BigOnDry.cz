@@ -1,14 +1,9 @@
-export interface Product {
-  id: number;
-  name: string;
-  description: string;
-}
-
-export interface NewsItem {
-  id: number;
+export interface Slide {
+  imageUrl: string;
   title: string;
-  date: string;
-  excerpt: string;
+  description: string;
+  ctaText?: string;
+  ctaLink?: string;
 }
 
 export interface MenuLink {

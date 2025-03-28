@@ -1,88 +1,146 @@
-import { Link } from 'react-router-dom';
-import styles from './Home.module.css';
-
-// Временные данные - в реальном приложении замените на данные из API
-const featuredProducts = [
-  { id: 1, name: 'Продукт 1', description: 'Описание продукта 1' },
-  { id: 2, name: 'Продукт 2', description: 'Описание продукта 2' },
-  { id: 3, name: 'Продукт 3', description: 'Описание продукта 3' },
-];
-
-const latestNews = [
-  { id: 1, title: 'Новость 1', date: '2023-05-15', excerpt: 'Краткое описание новости 1' },
-  { id: 2, title: 'Новость 2', date: '2023-05-10', excerpt: 'Краткое описание новости 2' },
-];
+import { useState, useEffect, useCallback } from "react";
+import { Link } from "react-router-dom";
+import styles from "./Home.module.css";
+import { SLIDES } from "../../constants/slides";
 
 const Home = () => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  const slides = SLIDES;
+
+  const nextSlide = useCallback(() => {
+    setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
+  }, [slides.length]);
+
+  const prevSlide = () => {
+    setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
+  };
+
+  const goToSlide = (index: number) => {
+    setCurrentSlide(index);
+  };
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      nextSlide();
+    }, 5000); // Change slide every 5 seconds
+
+    return () => clearInterval(intervalId);
+  }, [nextSlide]);
+
   return (
     <div className={styles.home}>
-      {/* Герой-секция */}
-      <section className={styles.hero}>
-        <div className={styles.heroContent}>
-          <h1 className={styles.heroTitle}>Добро пожаловать в нашу компанию</h1>
-          <p className={styles.heroSubtitle}>Инновационные решения для вашего бизнеса</p>
-          <Link to="/products" className={styles.heroButton}>
-            Наши продукты
-          </Link>
-        </div>
-      </section>
 
-      {/* Преимущества */}
-      <section className={styles.features}>
-        <h2 className={styles.sectionTitle}>Наши преимущества</h2>
-        <div className={styles.featuresGrid}>
-          <div className={styles.featureCard}>
-            <h3>Качество</h3>
-            <p>Мы используем только лучшие материалы и технологии</p>
-          </div>
-          <div className={styles.featureCard}>
-            <h3>Опыт</h3>
-            <p>Более 10 лет на рынке</p>
-          </div>
-          <div className={styles.featureCard}>
-            <h3>Поддержка</h3>
-            <p>Круглосуточная техническая поддержка</p>
-          </div>
-        </div>
-      </section>
 
-      {/* Избранные продукты */}
+      <div className={styles.slider}>
+        {slides.map((slide, index) => (
+          <div
+            key={index}
+            className={`${styles.slide} ${
+              index === currentSlide ? styles.active : ""
+            }`}
+            style={{ backgroundImage: `url(${slide.imageUrl})` }}
+          >
+            <div className={styles.slideOverlay}></div>
+            <div className={styles.slideContent}>
+              <p>{slide.description}</p>
+            </div>
+          </div>
+        ))}
+
+        <div className={styles.navigation}>
+          <button onClick={prevSlide} className={styles.navButton}>
+            &lt;
+          </button>
+          <div className={styles.dots}>
+            {slides.map((_, index) => (
+              <button
+                key={index}
+                className={`${styles.dot} ${
+                  index === currentSlide ? styles.activeDot : ""
+                }`}
+                onClick={() => setCurrentSlide(index)}
+              />
+            ))}
+          </div>
+          <button onClick={nextSlide} className={styles.navButton}>
+            &gt;
+          </button>
+        </div>
+      </div>
+
+
+
+
+
+
+      {/* Mock content sections */}
       <section className={styles.featuredProducts}>
-        <h2 className={styles.sectionTitle}>Рекомендуемые продукты</h2>
-        <div className={styles.productsGrid}>
-          {featuredProducts.map((product) => (
-            <div key={product.id} className={styles.productCard}>
-              <h3>{product.name}</h3>
-              <p>{product.description}</p>
-              <Link to={`/products/${product.id}`} className={styles.productLink}>
-                Подробнее
-              </Link>
+        <h2>Featured Products</h2>
+        <div className={styles.productGrid}>
+          {[1, 2, 3, 4].map((product) => (
+            <div key={product} className={styles.productCard}>
+              <div className={styles.productImage}></div>
+              <h3>Product {product}</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button className={styles.productButton}>View Details</button>
             </div>
           ))}
         </div>
-        <Link to="/products" className={styles.allProductsLink}>
-          Все продукты →
-        </Link>
       </section>
 
-      {/* Последние новости */}
-      <section className={styles.latestNews}>
-        <h2 className={styles.sectionTitle}>Последние новости</h2>
-        <div className={styles.newsList}>
-          {latestNews.map((news) => (
-            <div key={news.id} className={styles.newsItem}>
-              <h3>
-                <Link to={`/news/${news.id}`}>{news.title}</Link>
-              </h3>
-              <p className={styles.newsDate}>{new Date(news.date).toLocaleDateString()}</p>
-              <p className={styles.newsExcerpt}>{news.excerpt}</p>
+      <section className={styles.aboutSection}>
+        <div className={styles.aboutContent}>
+          <h2>About Our Company</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. 
+            Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus 
+            rhoncus ut eleifend nibh porttitor.
+          </p>
+          <p>
+            Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl 
+            tempor. Suspendisse dictum feugiat nisl ut dapibus.
+          </p>
+          <button className={styles.learnMoreButton}>Learn More</button>
+        </div>
+        <div className={styles.aboutImage}></div>
+      </section>
+
+      <section className={styles.testimonials}>
+        <h2>What Our Customers Say</h2>
+        <div className={styles.testimonialGrid}>
+          {[1, 2, 3].map((testimonial) => (
+            <div key={testimonial} className={styles.testimonialCard}>
+              <div className={styles.testimonialQuote}>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis 
+                sapien facilisis ultricies."
+              </div>
+              <div className={styles.testimonialAuthor}>
+                <div className={styles.authorAvatar}></div>
+                <div className={styles.authorInfo}>
+                  <h4>John Doe</h4>
+                  <p>Customer</p>
+                </div>
+              </div>
             </div>
           ))}
         </div>
-        <Link to="/news" className={styles.allNewsLink}>
-          Все новости →
-        </Link>
       </section>
+
+      <section className={styles.ctaSection}>
+        <h2>Ready to Get Started?</h2>
+        <p>
+          Join thousands of satisfied customers who are already using our products and services.
+        </p>
+        <div className={styles.ctaButtons}>
+          <button className={styles.primaryButton}>Sign Up Now</button>
+          <button className={styles.secondaryButton}>Contact Us</button>
+        </div>
+      </section>
+
+
+
+      
     </div>
   );
 };

@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
         } ${toggled ? styles.menuOpen : ""}`}
       >
         <Cheeseburger
-          color={toggled ? "#ffffff" : "#303030"}
+          color={toggled || !isScrolled ? "#ffffff" : "#303030"}
           width={60}
           height={60}
           isToggled={toggled}
