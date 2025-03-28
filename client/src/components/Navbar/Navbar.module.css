@@ -1,16 +1,19 @@
 .navbar { 
   position: fixed; 
   top: 0; 
-  left: 0; 
-  right: 0; 
+  left: 50%; /* Center the navbar */
+  transform: translateX(-50%); /* Center the navbar */
+  width: 100%; /* Default width */
+  max-width: 2000px; /* Maximum width */
   display: flex; 
   justify-content: space-between; 
   align-items: center; 
   padding: 1rem 2rem; 
   background-color: transparent; 
   transition: background-color 0.3s ease; 
-  z-index: 1100; /* Increased z-index to ensure it's above the menu */
+  z-index: 1100;
   height: 80px; 
+  box-sizing: border-box; /* Include padding in width calculation */
 } 
 
 .navbar.menuOpen { 

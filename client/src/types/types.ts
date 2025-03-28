@@ -10,3 +10,13 @@ export interface NewsItem {
   date: string;
   excerpt: string;
 }
+
+export interface MenuLink {
+  name: string;
+  path: string;
+}
+
+export interface MenuSection {
+  title: string;
+  links: MenuLink[];
+}
