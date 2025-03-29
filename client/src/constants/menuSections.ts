@@ -15,18 +15,18 @@ export const MENU_SECTIONS: MenuSection[] = [
   {
     title: "Products",
     links: [
-      { name: "Drying Kilns", path: "/products/drying-kilns" },
+      { name: "Drying Kilns", path: "/products/drying-kilns/1" },
       {
         name: "Heat Treatment Plants (ISPM-15)",
-        path: "/products/heat-treatment",
+        path: "/products/heat-treatment/2",
       },
       {
         name: "Thermal Modification Kilns",
-        path: "/products/thermal-modification",
+        path: "/products/thermal-modification/3",
       },
-      { name: "Steaming Chambers", path: "/products/steaming-chambers" },
-      { name: "Biomass Drying Systems", path: "/products/biomass-drying" },
-      { name: "Spare parts and Assistance", path: "/products/spare-parts" },
+      { name: "Steaming Chambers", path: "/products/steaming-chambers/4" },
+      { name: "Biomass Drying Systems", path: "/products/biomass-drying/5" },
+      { name: "Spare parts and Assistance", path: "/products/spare-parts/6" },
     ],
   },
   {

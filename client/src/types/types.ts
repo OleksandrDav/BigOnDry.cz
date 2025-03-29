@@ -1,9 +1,6 @@
 export interface Slide {
   imageUrl: string;
   title: string;
-  description: string;
-  ctaText?: string;
-  ctaLink?: string;
 }
 
 export interface MenuLink {
@@ -17,6 +14,7 @@ export interface MenuSection {
 }
 
 export interface Product {
+  id: number;
   name: string;
   title: string;
   path: string;

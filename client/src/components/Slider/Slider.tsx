@@ -4,9 +4,10 @@ import { Slide } from "../../types/types";
 
 interface SliderProps {
   slides: Slide[];
+  height?: string;
 }
 
-const Slider: React.FC<SliderProps> = ({ slides }) => {
+const Slider: React.FC<SliderProps> = ({ slides, height = "100vh" }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const nextSlide = useCallback(() => {
@@ -25,8 +26,12 @@ const Slider: React.FC<SliderProps> = ({ slides }) => {
     return () => clearInterval(intervalId);
   }, [nextSlide]);
 
+  const sliderStyle = {
+    height: height
+  };
+
   return (
-    <div className={styles.slider}>
+    <div className={styles.slider} style={sliderStyle}>
       {slides.map((slide, index) => (
         <div
           key={index}
@@ -37,7 +42,7 @@ const Slider: React.FC<SliderProps> = ({ slides }) => {
         >
           <div className={styles.slideOverlay}></div>
           <div className={styles.slideContent}>
-            <p>{slide.description}</p>
+            <p>{slide.title}</p>
           </div>
         </div>
       ))}
