@@ -1,4 +1,4 @@
-import { MenuSection } from '../types/types';
+import { MenuSection } from "../types/types";
 
 export const MENU_SECTIONS: MenuSection[] = [
   {
@@ -7,6 +7,7 @@ export const MENU_SECTIONS: MenuSection[] = [
       { name: "Homepage", path: "/" },
       { name: "Company", path: "/company" },
       { name: "News", path: "/news" },
+      { name: "Optionals", path: "/products/optionals" },
       { name: "Experiences", path: "/experiences" },
       { name: "Contacts", path: "/contacts" },
     ],
@@ -23,7 +24,6 @@ export const MENU_SECTIONS: MenuSection[] = [
         name: "Thermal Modification Kilns",
         path: "/products/thermal-modification",
       },
-      { name: "Optionals", path: "/products/optionals" },
       { name: "Steaming Chambers", path: "/products/steaming-chambers" },
       { name: "Biomass Drying Systems", path: "/products/biomass-drying" },
       { name: "Spare parts and Assistance", path: "/products/spare-parts" },
