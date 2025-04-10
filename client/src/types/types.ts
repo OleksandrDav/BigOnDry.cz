@@ -13,12 +13,20 @@ export interface MenuSection {
   links: MenuLink[];
 }
 
+export type TextBlock = {
+  text: string;
+  isBold?: boolean;
+  isMultiline?: boolean;
+};
+
+export type Paragraph = TextBlock[];
+
 export interface Product {
-  id: number;
   name: string;
+  id: number;
   title: string;
   path: string;
-  description: string;
+  description: Paragraph[]; 
   imageUrls: string[];
   contentImage: string;
 }

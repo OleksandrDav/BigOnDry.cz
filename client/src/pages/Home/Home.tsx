@@ -12,6 +12,11 @@ const Home: React.FC = () => {
       <Slider slides={SLIDES} />
       <ArticleSection />
       <ProductsGrid products={PRODUCTS} />
+
+      <div className={styles.container}>
+        <div className={styles.polygon}></div>
+        <div className={styles.text}></div>
+      </div>
     </div>
   );
 };

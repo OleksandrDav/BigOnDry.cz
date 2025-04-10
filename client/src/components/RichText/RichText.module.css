@@ -1,0 +1,18 @@
+/* src/components/RichText/RichText.module.css */
+.richText {
+    line-height: 1.6;
+    color: #333;
+}
+
+.paragraph {
+    margin-bottom: 1rem;
+}
+
+.boldText {
+    font-weight: 600;
+}
+
+.normalText {
+    font-weight: normal;
+    color: color;
+}
