@@ -1,0 +1,80 @@
+.polygon {
+   background-color: #eeeeee;
+   width: 50%;
+   clip-path: polygon(0% 20%, 0 0, 88% 0, 100% 50%, 88% 100%, 0 100%, 0% 80%);
+   padding: 2rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+ 
+ .content {
+   margin: 0rem 5rem;
+ }
+ 
+ .label {
+   font-size: 1.2rem;
+   font-weight: 400;
+   margin-bottom: 1rem;
+   background-color: white;
+   border-radius: 20px;
+   padding: 0rem 1rem;
+   display: inline-block;
+   width: fit-content;
+ }
+ 
+ .text {
+   color: rgb(137, 16, 67);
+   font-size: 2.1rem;
+   display: block;
+   margin-bottom: 2rem;
+ }
+ 
+ .proposal {
+   color: rgb(137, 16, 67);
+   font-weight: bold;
+   font-size: 1.2rem;
+ }
+ 
+ /* Responsive styles */
+ @media (max-width: 1000px) {
+   .polygon {
+     width: 100%;
+     clip-path: none;
+     padding: 1.5rem;
+   }
+   
+   .content {
+     margin: 0rem 2rem;
+   }
+ }
+ 
+ @media (max-width: 768px) {
+   .polygon {
+     padding: 1rem;
+   }
+   
+   .content {
+     margin: 0rem 1rem;
+     text-align: center;
+   }
+   
+   .label {
+     margin: 0 auto 1rem auto;
+   }
+   
+   .text {
+     font-size: 1.7rem;
+     margin-bottom: 1rem;
+   }
+ }
+ 
+ @media (max-width: 480px) {
+   .text {
+     font-size: 1.2rem;
+   }
+   
+   .proposal {
+     font-size: 1.4rem;
+   }
+ }

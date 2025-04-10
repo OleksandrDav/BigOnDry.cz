@@ -4,12 +4,33 @@
 }
 
 .container {
-  height: 900px;
+  display: flex;
+  margin-top: 2rem;
 }
 
-.polygon{
-  background-color: #eeee;
-  height: 600px;
-  width: 50%;
-  clip-path: polygon(0% 20%, 0 0, 88% 0, 100% 50%, 88% 100%, 0 100%, 0% 80%);
+.sectionHeader {
+  text-align: center;
+  color: rgb(114, 15, 60);
+  font-size: 2rem;
+  margin-bottom: 50px;
+  font-weight: 400;
+}
+
+/* Responsive styles */
+@media (max-width: 1000px) {
+  .container {
+    background-color: #eeeeee; /* Gray background for whole container */
+  }
+}
+
+@media (max-width: 768px) {
+  .sectionHeader {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .container {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
 }

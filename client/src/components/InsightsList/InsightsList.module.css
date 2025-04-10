@@ -1,0 +1,79 @@
+.insights {
+   padding: 1rem 3rem;
+   display: flex;
+   align-items: center;
+ }
+ 
+ .insightsList {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+ }
+ 
+ .insightItem {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   text-decoration: none;
+   color: #333;
+   padding: 10px;
+   border-radius: 8px;
+   transition: all 0.3s ease;
+ }
+ 
+ .insightItem:hover {
+   background-color: rgba(137, 16, 67, 0.1);
+   color: rgb(137, 16, 67);
+ }
+ 
+ .insightAvatar {
+   width: 90px;
+   height: 90px;
+   border-radius: 50%;
+   background-size: cover;
+   background-position: center;
+   flex-shrink: 0;
+ }
+ 
+ .insightText {
+   font-size: 1.7rem;
+ }
+ 
+ /* Responsive styles */
+ @media (max-width: 1000px) {
+   .insights {
+     padding: 1rem 2rem;
+     width: 100%;
+   }
+ }
+ 
+ @media (max-width: 768px) {
+   .insights {
+     padding: 1rem;
+     justify-content: center;
+   }
+   
+   .insightAvatar {
+     width: 80px;
+     height: 80px;
+   }
+   
+   .insightText {
+     font-size: 1.5rem;
+   }
+ }
+ 
+ @media (max-width: 480px) {
+   .insightAvatar {
+     width: 70px;
+     height: 70px;
+   }
+   
+   .insightText {
+     font-size: 1.3rem;
+   }
+   
+   .insightItem {
+     gap: 10px;
+   }
+ }

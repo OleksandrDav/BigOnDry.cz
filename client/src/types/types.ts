@@ -30,3 +30,9 @@ export interface Product {
   imageUrls: string[];
   contentImage: string;
 }
+
+export interface InsightLink {
+  name: string;
+  path: string;
+  imageUrl?: string;
+}
