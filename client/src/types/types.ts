@@ -36,3 +36,30 @@ export interface InsightLink {
   path: string;
   imageUrl?: string;
 }
+
+export interface WoodCharacteristic {
+  name: "Waterproofness" | "Elasticity" | "Swelling" | "Durability" | "Pressure";
+  value: number; // от 1 до 5
+  iconUrl: string;
+}
+
+export interface WoodTemperatureAppearance {
+  temperature: string; 
+  imageUrl: string;
+  description?: string;
+}
+
+export interface WoodUsageExample {
+  title: string;
+  imageUrl: string;
+}
+
+export interface WoodType {
+  id: number;
+  name: string;
+  title: string;
+  description: Paragraph[];
+  characteristics: WoodCharacteristic[];
+  temperatureAppearances: WoodTemperatureAppearance[];
+  usageExamples?: WoodUsageExample[];
+}
