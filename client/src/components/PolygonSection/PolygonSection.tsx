@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./PolygonSection.module.css";
 
-type Props = {};
+interface PolygonSectionProps {}
 
-const PolygonSection = (props: Props) => {
+const PolygonSection: React.FC<PolygonSectionProps> = ({}) => {
   return (
     <div className={styles.polygon}>
       <div className={styles.content}>

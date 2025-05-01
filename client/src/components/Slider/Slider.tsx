@@ -19,12 +19,15 @@ const Slider: React.FC<SliderProps> = ({ slides, height = "100vh" }) => {
   };
 
   useEffect(() => {
-    const intervalId = setInterval(() => {
-      nextSlide();
-    }, 5000);
+    // Only set interval if there's more than one slide
+    if (slides.length > 1) {
+      const intervalId = setInterval(() => {
+        nextSlide();
+      }, 5000);
 
-    return () => clearInterval(intervalId);
-  }, [nextSlide]);
+      return () => clearInterval(intervalId);
+    }
+  }, [nextSlide, slides.length]);
 
   const sliderStyle = {
     height: height
@@ -47,25 +50,28 @@ const Slider: React.FC<SliderProps> = ({ slides, height = "100vh" }) => {
         </div>
       ))}
 
-      <div className={styles.navigation}>
-        <button onClick={prevSlide} className={styles.navButton}>
-          &lt;
-        </button>
-        <div className={styles.dots}>
-          {slides.map((_, index) => (
-            <button
-              key={index}
-              className={`${styles.dot} ${
-                index === currentSlide ? styles.activeDot : ""
-              }`}
-              onClick={() => setCurrentSlide(index)}
-            />
-          ))}
+      {/* Only show navigation if there's more than one slide */}
+      {slides.length > 1 && (
+        <div className={styles.navigation}>
+          <button onClick={prevSlide} className={styles.navButton}>
+            &lt;
+          </button>
+          <div className={styles.dots}>
+            {slides.map((_, index) => (
+              <button
+                key={index}
+                className={`${styles.dot} ${
+                  index === currentSlide ? styles.activeDot : ""
+                }`}
+                onClick={() => setCurrentSlide(index)}
+              />
+            ))}
+          </div>
+          <button onClick={nextSlide} className={styles.navButton}>
+            &gt;
+          </button>
         </div>
-        <button onClick={nextSlide} className={styles.navButton}>
-          &gt;
-        </button>
-      </div>
+      )}
     </div>
   );
 };

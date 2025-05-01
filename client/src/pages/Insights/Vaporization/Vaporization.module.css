@@ -1,0 +1,101 @@
+.sliderContainer {
+   margin-bottom: 2rem;
+ }
+ 
+ .contentContainer {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 2rem;
+   font-size: 1.2rem;
+ }
+ 
+ .mainHeader {
+   font-size: 2.4rem;
+   font-weight: 700;
+   margin-bottom: 2rem;
+   color: rgb(137, 16, 67);
+   text-align: center;
+   padding-bottom: 1rem;
+   border-bottom: 2px solid #eee;
+ }
+ 
+ .text {
+   margin-bottom: 1.5rem;
+   line-height: 1.6;
+   color: #333;
+   font-size: 1.2rem;
+ }
+ 
+ .sectionHeading {
+   font-size: 1.8rem;
+   font-weight: 700;
+   margin: 2rem 0 1rem;
+   color: #222;
+   border-bottom: 1px solid #eee;
+   padding-bottom: 0.5rem;
+ }
+ 
+ .subHeading {
+   font-size: 1.6rem;
+   font-weight: 400;
+   margin: 1.5rem 0 1rem;
+   color: #000000;
+ }
+
+
+
+
+ /* Add these styles to your existing CSS */
+.tableWrapper {
+   margin: 2rem 0;
+   width: 100%;
+ }
+ 
+ .tableTitle {
+   font-size: 1.6rem;
+   font-weight: 600;
+   margin-bottom: 1rem;
+   color: #222;
+ }
+ 
+ .comparisonTable {
+   width: 100%;
+   border-collapse: collapse;
+   margin-bottom: 2rem;
+   font-size: 1.1rem;
+ }
+ 
+ .comparisonTable th,
+ .comparisonTable td {
+   border: 1px solid #ddd;
+   padding: 12px 15px;
+   text-align: left;
+   vertical-align: top;
+ }
+ 
+ .comparisonTable th {
+   background-color: #f2f2f2;
+   font-weight: 600;
+   color: #333;
+ }
+ 
+ .comparisonTable tr:nth-child(even) {
+   background-color: #f9f9f9;
+ }
+ 
+ /* Responsive adjustments */
+ @media (max-width: 768px) {
+   .tableWrapper {
+     overflow-x: auto;
+   }
+   
+   .comparisonTable {
+     min-width: 600px;
+   }
+   
+   .comparisonTable th,
+   .comparisonTable td {
+     padding: 8px 10px;
+     font-size: 1rem;
+   }
+ }

@@ -1,0 +1,104 @@
+.sliderContainer {
+   margin-bottom: 2rem;
+}
+
+.contentContainer {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 2rem;
+   font-size: 1.2rem;
+}
+
+.mainHeader {
+   font-size: 2.4rem;
+   font-weight: 700;
+   margin-bottom: 2rem;
+   color: rgb(137, 16, 67);
+   text-align: center;
+   padding-bottom: 1rem;
+   border-bottom: 2px solid #eee;
+}
+
+.text {
+   margin-bottom: 1.5rem;
+   line-height: 1.6;
+   color: #333;
+   font-size: 1.2rem;
+}
+
+.subHeading {
+   font-size: 1.6rem;
+   font-weight: 600;
+   margin: 1.5rem 0 1rem;
+   color: #222;
+}
+
+.list {
+   margin-bottom: 2rem;
+   padding-left: 2rem;
+   font-size: 1.2rem;
+}
+
+.list li {
+   list-style-type: disc;
+   margin-bottom: 0.5rem;
+   line-height: 1.6;
+}
+
+.sectionHeading {
+   font-size: 1.8rem;
+   font-weight: 600;
+   margin: 2rem 0 1rem;
+   color: #222;
+   border-bottom: 1px solid #eee;
+   padding-bottom: 0.5rem;
+}
+
+.tableWrapper {
+   width: 100%;
+   overflow-x: auto;
+   margin: 1rem 0;
+   -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1); /* Optional: visual cue for scrollable area */
+}
+
+.consumptionTable {
+   width: 100%;
+   min-width: 800px; /* Minimum width before scrolling kicks in */
+   border-collapse: collapse;
+   font-size: 1.1rem;
+}
+
+.consumptionTable th,
+.consumptionTable td {
+   border: 1px solid #ddd;
+   padding: 8px 12px;
+   text-align: center;
+   vertical-align: middle;
+}
+
+.consumptionTable th {
+   background-color: #f2f2f2;
+   font-weight: 600;
+   color: #333;
+}
+
+.consumptionTable tr:nth-child(even) {
+   background-color: #f9f9f9;
+}
+
+.consumptionTable tr:hover {
+   background-color: #f1f1f1;
+}
+
+
+@media (max-width: 768px) {
+   .consumptionTable {
+     font-size: 1rem; /* Slightly smaller font on mobile */
+   }
+   
+   .consumptionTable th,
+   .consumptionTable td {
+     padding: 6px 8px; /* Tighter padding on mobile */
+   }
+ }

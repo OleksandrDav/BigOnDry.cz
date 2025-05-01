@@ -3,9 +3,9 @@ import { INSIGHTLINKS } from "../../constants/insightLinks";
 import { Link } from "react-router-dom";
 import styles from "./InsightsList.module.css";
 
-type Props = {};
+interface InsightsListProps {}
 
-const InsightsList = (props: Props) => {
+const InsightsList: React.FC<InsightsListProps> = ({}) => {
   return (
     <div className={styles.insights}>
       <div className={styles.insightsList}>
