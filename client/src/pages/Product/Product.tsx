@@ -5,6 +5,7 @@ import { PRODUCTS } from "../../constants/products";
 import styles from "./Product.module.css";
 import RichText from "../../components/RichText/RichText";
 import ProductInsights from "../../components/ProductInsights.tsx/ProductInsights";
+import RequestInformation from "../../components/RequestInformation/RequestInformation";
 
 const Product: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -26,7 +27,7 @@ const Product: React.FC = () => {
     <div className={styles.productPage}>
       {/* Slider section */}
       <div className={styles.sliderContainer}>
-        <Slider slides={slides} height="60vh" />
+        <Slider slides={slides} height="60vh" popup={true}/>
       </div>
 
       {/* Product info section */}
@@ -51,6 +52,8 @@ const Product: React.FC = () => {
 
       {/* Product Insights section */}
       <ProductInsights />
+
+      <RequestInformation />
     </div>
   );
 };

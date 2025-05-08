@@ -11,7 +11,7 @@
   padding: 1rem 2rem;
   background-color: transparent;
   transition: background-color 0.3s ease;
-  z-index: 1100;
+  z-index: 550;
   height: 80px;
   box-sizing: border-box;
 }
@@ -50,7 +50,7 @@
   width: 100%;
   height: 100%;
   background-color: rgb(114, 15, 60);
-  z-index: 1000;
+  z-index: 500;
   display: flex;
   justify-content: center;
   animation: menuSlideIn 0.5s ease;

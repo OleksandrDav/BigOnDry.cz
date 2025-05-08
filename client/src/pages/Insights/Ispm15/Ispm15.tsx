@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Ispm15.module.css";
 import Slider from "../../../components/Slider/Slider";
+import RequestInformation from "../../../components/RequestInformation/RequestInformation";
 
 interface Ispm15Props {}
 
@@ -117,6 +118,7 @@ const Ispm15: React.FC<Ispm15Props> = ({}) => {
           </table>
         </div>
       </div>
+      <RequestInformation />
     </div>
   );
 };

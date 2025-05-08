@@ -9,6 +9,7 @@ import PolygonSection from "../../components/PolygonSection/PolygonSection";
 import { INSIGHTLINKS } from "../../constants/insightLinks";
 import { Link } from "react-router-dom";
 import InsightsList from "../../components/InsightsList/InsightsList";
+import RequestInformation from "../../components/RequestInformation/RequestInformation";
 
 const Home: React.FC = () => {
   return (
@@ -24,6 +25,7 @@ const Home: React.FC = () => {
           <InsightsList />
         </div>
       </div>
+      <RequestInformation />
     </div>
   );
 };

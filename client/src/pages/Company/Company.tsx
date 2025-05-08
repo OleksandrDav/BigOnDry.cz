@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "../../components/Slider/Slider";
 import styles from "./Company.module.css";
+import RequestInformation from "../../components/RequestInformation/RequestInformation";
 
 const Company: React.FC = () => {
   const insights = [
@@ -128,23 +129,24 @@ const Company: React.FC = () => {
 
       {/* Company insights section */}
       <div className={styles.insightsSection}>
-  <h2 className={styles.insightsHeading}>Our Workspaces</h2>
-  <div className={styles.insightsGrid}>
-    {insights.map((insight, index) => (
-      <div key={index} className={styles.insightCard}>
-        <img 
-          src={insight.imageUrl} 
-          alt={insight.name} 
-          className={styles.insightImage} 
-          loading="lazy"
-        />
-        <div className={styles.insightOverlay}>
-          <h3 className={styles.insightName}>{insight.name}</h3>
+        <h2 className={styles.insightsHeading}>Our Workspaces</h2>
+        <div className={styles.insightsGrid}>
+          {insights.map((insight, index) => (
+            <div key={index} className={styles.insightCard}>
+              <img
+                src={insight.imageUrl}
+                alt={insight.name}
+                className={styles.insightImage}
+                loading="lazy"
+              />
+              <div className={styles.insightOverlay}>
+                <h3 className={styles.insightName}>{insight.name}</h3>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
-    ))}
-  </div>
-</div>
+      <RequestInformation />
     </div>
   );
 };

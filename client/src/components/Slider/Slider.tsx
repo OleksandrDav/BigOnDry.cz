@@ -1,14 +1,17 @@
 import React, { useState, useEffect, useCallback } from "react";
 import styles from "./Slider.module.css";
 import { Slide } from "../../types/types";
+import RequestInformation from "../RequestInformation/RequestInformation";
 
 interface SliderProps {
   slides: Slide[];
   height?: string;
+  popup?: boolean;
 }
 
-const Slider: React.FC<SliderProps> = ({ slides, height = "100vh" }) => {
+const Slider: React.FC<SliderProps> = ({ slides, height = "100vh", popup = true }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [showRequestInfo, setShowRequestInfo] = useState(false);
 
   const nextSlide = useCallback(() => {
     setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
@@ -28,6 +31,10 @@ const Slider: React.FC<SliderProps> = ({ slides, height = "100vh" }) => {
       return () => clearInterval(intervalId);
     }
   }, [nextSlide, slides.length]);
+
+  const toggleRequestInfoPopup = () => {
+    setShowRequestInfo(!showRequestInfo);
+  };
 
   const sliderStyle = {
     height: height
@@ -56,20 +63,33 @@ const Slider: React.FC<SliderProps> = ({ slides, height = "100vh" }) => {
           <button onClick={prevSlide} className={styles.navButton}>
             &lt;
           </button>
-          <div className={styles.dots}>
-            {slides.map((_, index) => (
-              <button
-                key={index}
-                className={`${styles.dot} ${
-                  index === currentSlide ? styles.activeDot : ""
-                }`}
-                onClick={() => setCurrentSlide(index)}
-              />
-            ))}
-          </div>
           <button onClick={nextSlide} className={styles.navButton}>
             &gt;
           </button>
+        </div>
+      )}
+
+      {/* Request Information Button */}
+      {popup && (
+        <div className={styles.requestButtonContainer}>
+          <button 
+            className={styles.requestButton}
+            onClick={toggleRequestInfoPopup}
+          >
+            Request Information
+          </button>
+        </div>
+      )}
+
+      {/* Request Information Popup */}
+      {showRequestInfo && (
+        <div className={styles.popupOverlay}>
+          <div className={styles.popup}>
+            <button className={styles.closeButton} onClick={toggleRequestInfoPopup}>
+              ✕
+            </button>
+            <RequestInformation />
+          </div>
         </div>
       )}
     </div>

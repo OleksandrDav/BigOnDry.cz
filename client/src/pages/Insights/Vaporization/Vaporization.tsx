@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Vaporization.module.css";
 import Slider from "../../../components/Slider/Slider";
+import RequestInformation from "../../../components/RequestInformation/RequestInformation";
 
 interface VaporizationProps {}
 
@@ -82,6 +83,7 @@ const Vaporization: React.FC<VaporizationProps> = ({}) => {
           Sensors are used to detect the temperature in the chamber and also in the wood. This allows the cycle to be carried out according to the actual temperature detected in the heart of the wood, which ensures a finer and more precise control of the process, since the climatic conditions of the air change faster than inside the wood and are more influenced by the external climatic conditions.
         </p>
       </div>
+      <RequestInformation />
     </div>
   );
 };

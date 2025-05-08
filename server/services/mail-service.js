@@ -13,7 +13,7 @@ class MailService {
     });
   }
 
-  async createAppealEmail(email, name, company, topic, phone, message) {
+  async createAppealEmail(email, name, company, phone, message) {
     console.log(`Email sent to ${email}`);
     await this.transporter.sendMail({
       from: process.env.SMTP_USER,
@@ -77,7 +77,7 @@ class MailService {
             <img src="https://www.bigondry.com/wp-content/uploads/2020/12/Logo-BIGonDRY.png" alt="Company Logo" />
         </div>
         <h2>Thank you for reaching out, ${name}!</h2>
-        <p>We have received your request regarding <span class="highlight">"${topic}"</span>.</p>
+        <p>We have received your request</p>
         <p>Our team is reviewing the details and will get back to you shortly.</p>
         <p>Here is a summary of your message:</p>
         <ul>

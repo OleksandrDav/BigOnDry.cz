@@ -4,6 +4,7 @@ import ThermoModifyArticle from "../../../components/ThemoModifyArticle/ThermoMo
 import { WoodType } from "../../../types/types";
 import { WOOD_TYPES } from "../../../constants/woodTypes";
 import { ChevronLeft, ChevronRight } from "react-feather";
+import RequestInformation from "../../../components/RequestInformation/RequestInformation";
 
 const ThermoModification: React.FC = () => {
   const [selectedWoodType, setSelectedWoodType] = useState<WoodType>(
@@ -126,6 +127,7 @@ const ThermoModification: React.FC = () => {
           </div>
         </div>
       </div>
+      <RequestInformation />
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "../../components/Slider/Slider";
 import styles from "./Contacts.module.css";
+import RequestInformation from "../../components/RequestInformation/RequestInformation";
 
 const Contacts: React.FC = () => {
   const slides = [
@@ -75,6 +76,7 @@ const Contacts: React.FC = () => {
           </div>
         </div>
       </div>
+      <RequestInformation />
     </div>
   );
 };

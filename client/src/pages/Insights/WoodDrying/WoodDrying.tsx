@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./WoodDrying.module.css";
 import Slider from "../../../components/Slider/Slider";
+import RequestInformation from "../../../components/RequestInformation/RequestInformation";
 
 interface WoodDryingProps {}
 
@@ -61,6 +62,7 @@ const WoodDrying: React.FC<WoodDryingProps> = ({}) => {
           For an adequate wood drying process, temperature and relative humidity values must be used which have already been experimentally determined for each type of wood essence.
         </p>
       </div>
+      <RequestInformation />
     </div>
   );
 };

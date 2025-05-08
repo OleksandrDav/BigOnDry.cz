@@ -39,7 +39,6 @@ class AppealController {
          name,
          email,
          company,
-         topic,
          phone,
          message
        } = req.body;
@@ -47,7 +46,6 @@ class AppealController {
          name,
          email,
          company,
-         topic,
          phone,
          message
        );
