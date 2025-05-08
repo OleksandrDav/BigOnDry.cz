@@ -7,6 +7,8 @@ import WoodDrying from './pages/Insights/WoodDrying/WoodDrying';
 import Ispm15 from './pages/Insights/Ispm15/Ispm15';
 import ThermoModification from './pages/Insights/ThermoModification/ThermoModification';
 import Vaporization from './pages/Insights/Vaporization/Vaporization';
+import Contacts from './pages/Contacts/Contacts';
+import NotFoundPage from './pages/NotFound/NotFound';
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +22,10 @@ export const router = createBrowserRouter([
       {
         path: '/company',
         element: <Company />,
+      },
+      {
+        path: '/contacts',
+        element: <Contacts />
       },
       {
         path: '/products/:productName/:id',
@@ -40,7 +46,11 @@ export const router = createBrowserRouter([
       {
         path: '/insights/vaporization',
         element: <Vaporization />,
-      }
+      },
     ],
   },
+  {
+    path: '*',
+    element: <NotFoundPage />,
+  }
 ]);
