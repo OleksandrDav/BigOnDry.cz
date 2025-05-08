@@ -1,20 +1,30 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import styles from "./ThermoModification.module.css";
 import ThermoModifyArticle from "../../../components/ThemoModifyArticle/ThermoModifyArticle";
 import { WoodType } from "../../../types/types";
 import { WOOD_TYPES } from "../../../constants/woodTypes";
+import { ChevronLeft, ChevronRight } from "react-feather";
 
 const ThermoModification: React.FC = () => {
   const [selectedWoodType, setSelectedWoodType] = useState<WoodType>(
     WOOD_TYPES[0]
   );
+  const carouselRef = useRef<HTMLDivElement>(null);
+
+  const scrollCarousel = (direction: 'left' | 'right') => {
+    if (carouselRef.current) {
+      const scrollAmount = direction === 'left' ? -300 : 300;
+      carouselRef.current.scrollBy({
+        left: scrollAmount,
+        behavior: 'smooth'
+      });
+    }
+  };
 
   return (
     <div>
-      {/* Keep your existing ThermoModifyArticle */}
       <ThermoModifyArticle />
 
-      {/* Add the new wood type selector section */}
       <div className={styles.container}>
         <div className={styles.woodTypesSection}>
           <h2 className={styles.sectionTitle}>Wood Type Characteristics</h2>
@@ -77,7 +87,7 @@ const ThermoModification: React.FC = () => {
 
             <div className={styles.carouselContainer}>
               <h4>Examples of thermal variation</h4>
-              <div className={styles.carousel} key={selectedWoodType.id}>
+              <div className={styles.carousel} ref={carouselRef} key={selectedWoodType.id}>
                 {selectedWoodType.temperatureAppearances.map((appearance) => (
                   <div
                     key={appearance.temperature}
@@ -100,6 +110,18 @@ const ThermoModification: React.FC = () => {
                   </div>
                 ))}
               </div>
+              <button 
+                className={`${styles.carouselNav} ${styles.prev}`}
+                onClick={() => scrollCarousel('left')}
+              >
+                <ChevronLeft />
+              </button>
+              <button 
+                className={`${styles.carouselNav} ${styles.next}`}
+                onClick={() => scrollCarousel('right')}
+              >
+                <ChevronRight />
+              </button>
             </div>
           </div>
         </div>
