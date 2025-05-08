@@ -6,9 +6,6 @@ export const MENU_SECTIONS: MenuSection[] = [
     links: [
       { name: "Homepage", path: "/" },
       { name: "Company", path: "/company" },
-      { name: "News", path: "/news" },
-      { name: "Optionals", path: "/products/optionals" },
-      { name: "Experiences", path: "/experiences" },
       { name: "Contacts", path: "/contacts" },
     ],
   },
@@ -36,7 +33,7 @@ export const MENU_SECTIONS: MenuSection[] = [
       { name: "Why to do ISPM-15 treatment?", path: "/insights/ispm15" },
       {
         name: "Why to thermo-modify the wood?",
-        path: "/insights/thermal-modification",
+        path: "/insights/thermo-modification",
       },
       { name: "Why to vaporize the wood?", path: "/insights/vaporization" },
     ],

@@ -445,20 +445,6 @@ export const WOOD_TYPES: WoodType[] = [
                "https://www.bigondry.com/wp-content/uploads/2021/01/FR_C1.jpg",
          },
       ],
-      usageExamples: [
-         {
-           title: "1 / Sauna",
-           imageUrl: "https://www.bigondry.com/wp-content/uploads/2020/11/sauna-dream-per-suite.jpg",
-         },
-         {
-           title: "2 / Angolare",
-           imageUrl: "https://www.bigondry.com/wp-content/uploads/2020/11/dream-angolare-in-thermowood.jpg",
-         },
-         {
-             title: "3 / Sauna Sensation",
-             imageUrl: "https://www.bigondry.com/wp-content/uploads/2020/11/sauna-sensation-in-thermowood.jpg",
-         }
-       ],
   },
   {
    id: 7,
@@ -615,12 +601,6 @@ export const WOOD_TYPES: WoodType[] = [
             "https://www.bigondry.com/wp-content/uploads/2021/01/RV_C2-622.jpg",
       }
    ],
-   usageExamples: [
-      {
-        title: "1 / Oak",
-        imageUrl: "https://www.bigondry.com/wp-content/uploads/2020/11/Rovere-153%C2%B0C.jpeg",
-      },
-    ],
   },
   {
    id: 9,

@@ -4,6 +4,7 @@ import Slider from "../../components/Slider/Slider";
 import { PRODUCTS } from "../../constants/products";
 import styles from "./Product.module.css";
 import RichText from "../../components/RichText/RichText";
+import ProductInsights from "../../components/ProductInsights.tsx/ProductInsights";
 
 const Product: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -47,6 +48,9 @@ const Product: React.FC = () => {
           </div>
         </div>
       </div>
+
+      {/* Product Insights section */}
+      <ProductInsights />
     </div>
   );
 };

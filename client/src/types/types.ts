@@ -63,3 +63,9 @@ export interface WoodType {
   temperatureAppearances: WoodTemperatureAppearance[];
   usageExamples?: WoodUsageExample[];
 }
+
+export interface ProductInsight {
+  title: string;
+  description: string;
+  imageUrl: string;
+}
