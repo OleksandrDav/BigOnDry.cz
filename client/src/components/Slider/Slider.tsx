@@ -88,7 +88,7 @@ const Slider: React.FC<SliderProps> = ({ slides, height = "100vh", popup = true 
             <button className={styles.closeButton} onClick={toggleRequestInfoPopup}>
               ✕
             </button>
-            <RequestInformation />
+            <RequestInformation slider={true} />
           </div>
         </div>
       )}

@@ -4,7 +4,7 @@ import styles from "./RequestInformation.module.css";
 const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:5000";
 
 interface RequestInformationProps {
-  color?: string;
+  slider?: boolean;
 }
 
 interface FormData {
@@ -19,7 +19,7 @@ interface ValidationErrors {
   [key: string]: string;
 }
 
-const RequestInformation: React.FC<RequestInformationProps> = ({ color }) => {
+const RequestInformation: React.FC<RequestInformationProps> = ({ slider }) => {
   const [formData, setFormData] = useState<FormData>({
     name: "",
     email: "",
@@ -131,8 +131,15 @@ const RequestInformation: React.FC<RequestInformationProps> = ({ color }) => {
     }
   };
 
+  const containerStyle = {
+    backgroundColor: "#f8f8f8",
+    padding: "0rem 2rem",
+  };
   return (
-    <div className={styles.requestInformation}>
+    <div
+      className={slider ? undefined : styles.requestInformation}
+      style={slider ? containerStyle : undefined}
+    >
       <div className={styles.container}>
         <h2 className={styles.title}>Request Information</h2>
         <p className={styles.subtitle}>
