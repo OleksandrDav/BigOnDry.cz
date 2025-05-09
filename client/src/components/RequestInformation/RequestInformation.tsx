@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./RequestInformation.module.css";
 import { useTranslation } from "react-i18next";
 
-const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:5000";
+const BASE_URL = "https://bigondry.cz";
 
 interface RequestInformationProps {
   slider?: boolean;
