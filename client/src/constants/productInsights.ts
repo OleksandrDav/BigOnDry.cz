@@ -76,12 +76,6 @@ export const PRODUCTINSIGHT: ProductInsight[] = [
   imageUrl: "https://www.bigondry.com/wp-content/uploads/2020/11/vap-indiretta-1.jpg",
  },
  {
-  title: "Heating Systems",
-  description: 'BIGonDRY Srl has developed various vaporization systems, depending on the thermal agent available and the energy generator used. In the vaporization cell, the steam can be obtained in a “direct” way (direct injection of saturated steam, at low pressure) or in an “indirect” way (evaporation of the water contained in special tanks inside the cell).',
-  imageUrl:
-    "https://www.bigondry.com/wp-content/uploads/2020/11/DSCN0810-1.jpg",
- },
- {
   title: "Control System",
   description:
     "Both systems described above are controlled by a microprocessor, developed directly by BIGonDRY Srl in collaboration with a software house. This system allows the step-by-step control of the cycle phases according to Time and Temperature. Each program can be registered with a code, recalled, modified and reused for subsequent cycles.",

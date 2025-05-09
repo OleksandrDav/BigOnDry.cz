@@ -1,0 +1,53 @@
+{
+   "sectionTitle": "Produktové informace",
+   "items": [
+     {
+       "title": "Systémy s přímým plynovým hořákem",
+       "description": "Systém pracující s přímým plynovým hořákem umožňuje dosáhnout vysokých teplot v krátkém čase a tím urychlit cykly. Také nevyžaduje kotel a související náklady na správu."
+     },
+     {
+       "title": "Tradiční systém s horkovodními cívkami",
+       "description": "Sušárny s horkovodním topným systémem. Tento systém umožňuje využívat dřevní odpad, zejména pokud je k dispozici ve velkém množství. BIGonDRY může dodat také kotel a hydraulický okruh."
+     },
+     {
+       "title": "„Tunelová“ sušárna",
+       "description": "Sušárny vybavené podvozkem pro nakládku zespodu. Hodí se zejména pro rychlé sušicí cykly, poskytují výhodu nízkých provozních nákladů díky optimalizaci času nakládky a vykládky."
+     },
+     {
+       "title": "Předsušicí zařízení",
+       "description": "Skladovací zařízení a předsušicí jednotky jsou skutečnou alternativou k přirozenému sušení dřeva, zejména v případě poškození kvality dřeva náhlými změnami počasí. Tato logistická řešení pro skladování v klimatizovaných skladech umožňují snížit vlhkost čerstvě řezaného dřeva na 20-25 % prostřednictvím neustálého monitorování environmentálních parametrů, jako je teplota a vlhkost."
+     },
+     {
+       "title": "Aplikace ISPM-15",
+       "description": "Software pro kontrolu fáze tepelného ošetření v souladu s normou ISPM 15. <strong>PRO STERILIZACI DŘEVA</strong> po dobu 30 minut při 56°C. Systém obsahuje sondy pro detekci teploty dřeva. Software umožňuje ukládat data o procesu a vytvářet zprávu plně v souladu s požadavky normy."
+     },
+     {
+       "title": "Přímá a nepřímá metoda",
+       "description": "BIGonDRY vás může podpořit všemi metodami požadovanými v každé zemi po celém světě. Software umožňuje ukládat data o procesu a vytvářet zprávu plně v souladu s požadavky normy."
+     },
+     {
+       "title": "Topné systémy",
+       "description": "<strong>THW systémy</strong> od BIGonDRY jsou vybaveny přímým dvoustupňovým plynovým hořákem vhodným pro spalování plynných paliv. Generátor se skládá z monobloku, který zahrnuje spalovací komoru s hořáky a výměník tepla vyrobený z nerezové oceli AISI 316."
+     },
+     {
+       "title": "Řídicí systém",
+       "description": "Automatizace řízení systému THW umožňuje zákazníkovi provádět různé úkony, čímž je stroj extrémně univerzální. Je možné sušit, vaporizovat, sterilizovat podle ISPM-15 a termicky upravovat dřevo až do 250°C."
+     },
+     {
+       "title": "Velikosti a modely",
+       "description": "Řada THW má čistou kapacitu od 4 m³ do přibližně 30 m³ s velmi přesným a sofistikovaným systémem řízení. Systém je dodáván předem sestavený, vhodný pro přepravu kamionem nebo kontejnerem. Jediné, co zbývá udělat na místě, je připojení, testování a uvedení do provozu."
+     },
+     {
+       "title": "Přímé napařování",
+       "description": "Pára je vstřikována do prostoru obsahujícího dřevo prostřednictvím série perforovaných trubek pod hromadou podél tří stěn. Pára musí být nasycená nebo téměř nasycená, s maximálním tlakem 0,3 baru (v potrubí) a musí se v komoře rozpínat, dokud nedosáhne atmosférického tlaku. Pokud nemáte nasycenou páru, musí být zvlhčena (pára je foukána proti vodě, která je vedena pod parní trubkou ve speciálním kanálu). Otvory v trubce musí směřovat k podlaze a ne proti dřevu, aby nedošlo k lokálnímu přehřátí a vysušení."
+     },
+     {
+       "title": "Nepřímé napařování",
+       "description": "Pára je vyráběna uvnitř napařovací komory přivedením vody obsažené ve speciálních nerezových nádržích k varu, umístěných pod úrovní podlahy, podél tří stěn nedotčených dveřmi, pod hromadou. Uvnitř těchto nádrží je tradiční/přímá topná cívka, ve které proudí přehřátá voda/plyn jako tepelné médium. Při použití tohoto systému je nutné udržovat konstantní hladinu vody v nádržích."
+     },
+     {
+       "title": "Řídicí systém",
+       "description": "Oba výše popsané systémy jsou řízeny mikroprocesorem, vyvinutým přímo společností BIGonDRY Srl ve spolupráci se softwarovou společností. Tento systém umožňuje postupnou kontrolu fází cyklu podle času a teploty. Každý program může být zaregistrován s kódem, vyvolán, upraven a znovu použit pro následné cykly."
+     }
+   ]
+ }

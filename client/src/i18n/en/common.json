@@ -1,0 +1,274 @@
+{
+  "article": {
+    "title": "Wood Drying Kilns and Heat Treatment Plants",
+    "description": "BIGonDRY is an italian company that produces Wood Drying Kilns and Heat Treatment Plants. Since 2001 BIGonDRY has been studying and designing \"turnkey\" systems for any request and following the customer in his growth path."
+  },
+  "footer": {
+    "company": "BIGonDRY Srl",
+    "address": "Viale Giovanni Falcone, 30\n31037 Castione di Loria (TV)\nItaly",
+    "email": "info@bigondry.cz",
+    "dubai": "Dubai – Abu Dhabi",
+    "dubaiAddress": "48 Burj Gate, 10th Floor, room #1001, Downtown, Dubai (UAE)\n7th Floor, CI Tower, Khalidiya Area, Abu Dhabi (UAE)",
+
+    "insights": "Insights",
+    "insightsLinks": {
+      "drying": "Why to dry the wood?",
+      "ispm15": "Why to do ISPM-15 treatment?",
+      "thermo": "Why to thermo-modify the wood?",
+      "vapor": "Why to vaporize the wood?"
+    },
+
+    "products": "Products",
+    "productLinks": {
+      "dryingKilns": "Drying Kilns",
+      "ispm15": "Heat Treatment Plants (ISPM-15)",
+      "thermo": "Thermal Modification Kilns",
+      "steaming": "Steaming Chambers",
+      "biomass": "Biomass Drying Systems",
+      "spare": "Spare parts and Assistance"
+    },
+
+    "copyright": "© {{year}} BIGonDRY Srl. All rights reserved."
+  },
+  "polygonSection": {
+    "label": "Insights",
+    "text": "Discover the importance of a good drying or a specific heat treatment on wood. Each one has its own benefits.",
+    "proposal": "Find out what you need!"
+  },
+  "productInsights": {
+    "sectionTitle": "Product Insights"
+  },
+  "headers": {
+    "products": "Products",
+    "insights": "Insights"
+  },
+  "requestInformation": {
+    "title": "Request Information",
+    "subtitle": "Fill out the form below and our team will get back to you as soon as possible.",
+    "fields": {
+      "name": "Full Name",
+      "email": "Email",
+      "company": "Company",
+      "phone": "Phone Number",
+      "message": "Message"
+    },
+    "placeholders": {
+      "name": "Your full name",
+      "email": "your.email@example.com",
+      "company": "Your company name",
+      "phone": "+420 123 456 789",
+      "message": "Please provide details about your request..."
+    },
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "success": "Thank you! Your request has been sent successfully.",
+    "failure": "Failed to submit the form. Please try again.",
+    "error": "An unexpected error occurred. Please try again later.",
+    "errors": {
+      "nameRequired": "Name is required",
+      "nameLength": "Name must be between 2 and 62 characters",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email format",
+      "companyRequired": "Company is required",
+      "companyLength": "Company must be between 2 and 100 characters",
+      "messageRequired": "Message is required",
+      "messageLength": "Message must be between 5 and 5000 characters"
+    }
+  },
+  "slider": {
+    "requestInformation": "Request Information",
+    "closePopup": "Close popup",
+    "next": "Next Slide",
+    "previous": "Previous Slide"
+  },
+  "thermoModify": {
+    "sliderTitle": "Why to thermo-modify the wood?",
+    "mainHeader": "Why to thermo-modify the wood?",
+    "text1": {
+      "part1": "Thermally Modified Wood (LTM) is increasingly known all over the world due to the benefits that this process produces at all levels of the supply chain. Through the heat treatment, the wood acquires greater ",
+      "strong1": "durability, stability and appearance",
+      "part2": ". It is much less sensitive to shrinkage and swelling, acquires considerable resistance to parasite infestation and gains an elegant livery that is homogeneous over the entire thickness of the material."
+    },
+    "text2": {
+      "part1": "The goal was to optimize the process technology developed by BIGonDRY on aspects related to costs, environmental impact, safety and standardization of the production of thermally modified wood (LTM) with proven characteristics of ",
+      "strong1": "durability, stability and appearance",
+      "part2": "."
+    },
+    "text3": {
+      "part1": "The products that arise within these ",
+      "strong1": "processes",
+      "part2": " are to be considered ",
+      "strong2": "totally bio-compatible",
+      "part3": ", as no chemicals of any kind are applied. This process gives wood a strong competitiveness with respect to alternative materials, including wood modified with other technologies or natural wood as it acquires greater ",
+      "strong3": "durability and stability",
+      "part4": ", avoiding having to chemically treat the wood and also eliminating the possibility of infestations by insects and obtaining a ",
+      "strong4": "homogeneous dark color on the wood throughout the thickness",
+      "part5": "."
+    },
+    "imageAlt": "Thermo-modify",
+    "sectionHeading1": "The BIGonDRY-THW System",
+    "text4": "The BIGonDRY-THW system is a process in the presence of saturated steam, which thanks to the slight overpressure, allows you to work at a temperature close to 230°C in an environment in the absence of oxygen, exploiting the natural production of gas from the wood (steam during first phase and gas from pyrolysis during the High Temperature phase) and, if necessary, by the controlled evaporation of a direct source of water supplied by the system. Consequently, the BIGonDRY-THW system uses a minimum amount of steam which allows to reach an ecological approach to the process with the following advantages:",
+    "listItem1": "A lower energy requirement compared to other HT systems that use high quantities of superheated steam;",
+    "listItem2": "Limited emission of gas into the environment;",
+    "listItem3": "A highly competitive plant cost",
+    "text5": "The quality and performance of the products are proven in the field by customer satisfaction and by the collaboration with independent research and experimentation institutes in Italy.",
+    "sectionHeading2": "Environmental Considerations",
+    "text6": "BIGonDRY also pays close attention to the environment and recent analyzes carried out on high temperature cycles for gaseous, liquid and solid emissions from the plant have revealed reassuring data. BIGonDRY is able to equip THW heat treatment plants with very effective filtering systems to reduce at best, also minimizing the consumption of \"clean\" water, thus having an economic as well as environmental saving. Furthermore, the extractives contained in the recycled water should not be underestimated, which often contribute to improving not only the appearance of the heat-treated wood but also its quality as it can absorb some of the extractives previously dissolved in the liquid and thus re-acquire some chemically important substances for the effects of durability and the improvement of some physical characteristics.",
+    "sectionHeading3": "Continuous Improvement",
+    "text7": "The technical staff of BIGonDRY is constantly looking for improvements in both drying and heat treatment programs, continually trying not only to obtain a product that is increasingly suited to market demands but also with environment and energy saving.",
+    "sectionHeading4": "Final Conditioning",
+    "text8": "The very important phases of final conditioning distinguish the product and its stability, in fact in these phases the humidity regained through controlled humidification phases allow to confer the dimensional stability that characterizes this product. This treatment phase is essential in order to make the material suitable for subsequent processing and provide the end customer with a durable, resistant but also easily workable material."
+  },
+  "company": {
+    "sliderTitle": "Company",
+    "heading": "BIGonDRY Srl: a company with experience and passion in the design and construction of plants and systems for drying, steaming and heat treatment of wood.",
+    "text1": {
+      "part1": "Passion and experience unite two generations, father and son, and led in 2001 to the foundation of ",
+      "strong1": "BIGonDRY Srl",
+      "part2": ", a company specializing in the design and construction of systems for drying, steaming and heat treatment of wood."
+    },
+    "text2": "The constant goal is the enhancement of a raw material, such as wood, as ancient as fundamental in today's global economy.",
+    "text3": {
+      "strong1": "Made in Italy",
+      "part1": " technologies combined with fully automatic control systems, create systems designed also in the light of an operating economy, with important energy savings."
+    },
+    "text4": {
+      "strong1": "BIGonDRY srl",
+      "part1": " is a careful and scrupulous partner that wants to ensure a quality standard of excellence by using quality materials and high construction standards even in the simplest products. In fact, BIGonDRY studies every request with attention and commitment, from the treatment of firewood, to the drying of precious woods, to special thermo-modification and phytosanitary treatments for the packaging sector. It also has produced special treatment systems in the clothing and agri-food sector, coming out victorious.",
+      "strong2": "",
+      "part2": ""
+    },
+    "text5": "Thanks to the synergy between collaborators with many years of experience in the sector and young and creative forces, with a very important preparation, full of enthusiasm and resourcefulness, it was possible to create a production and commercial reality able to operate successfully and offer CUSTOMIZED and INNOVATIVE SOLUTIONS, starting from the drying kilns up to the construction of turnkey plants, complete with a thermal and electrical energy generation system, with the flexibility to adapt to any circumstance.",
+    "text6": {
+      "strong1": "BIGonDRY srl",
+      "part1": " has about thirty employees and a lot of agents in Italy and in the rest of the world, with representative offices organized on site. Strong of professionalism and technical and commercial preparation, it is able to communicate in multiple languages, as well as to install and test Turnkey systems, with internal linguistic support such as: English, French, German, Spanish, Hungarian, Romanian, Serbo-Croatian and Russian."
+    },
+    "text7": "Hundreds of systems installed in over 50 countries around the world ... reliability and quality are the plus of BIGonDRY Srl.",
+    "insights": {
+      "heading": "Our Workspaces",
+      "technicalOffices": "Technical Offices",
+      "executiveOffices": "Executive Offices",
+      "commercialOffices": "Commercial Offices",
+      "meetingRoom": "Meeting room",
+      "administrativeOffices": "Administrative Offices"
+    }
+  },
+  "contacts": {
+    "sliderTitle": "Contacts",
+    "companyName": "BIGonDRY Srl",
+    "office1": {
+      "title": "REGISTERED OFFICE:",
+      "line1": "Via Tozzi, 7",
+      "line2": "36020 Pove del Grappa (VI)",
+      "line3": "Italia"
+    },
+    "office2": {
+      "title": "ADMINISTRATIVE OFFICE / PRODUCTION:",
+      "line1": "Viale G. Falcone, 30",
+      "line2": "31037 Castione di Loria (TV)",
+      "line3": "Italia"
+    },
+    "office3": {
+      "title": "DUBAI – ABU DHABI",
+      "line1": "48 Burj Gate, 10th Floor, room #1001, Downtown, Dubai (UAE)",
+      "line2": "7th Floor, CI Tower, khalidiya Area, Abu Dhabi (UAE)"
+    },
+    "contact": {
+      "mail": "Mail:",
+      "preferred": "(Preferred contact method)",
+      "tel": "Tel."
+    }
+  },
+  "ispm15": {
+    "sliderTitle": "Why to do ISPM-15 treatment?",
+    "mainHeader": "Why to do ISPM-15 treatment?",
+    "regulationHeading": "Regulation of Wood Packaging Material in International Trade",
+    "regulationText1": "FAO ISPM 15 standard is now operational in many countries and, of course, more and more countries will require wooden export packaging that conforms to the Standard.",
+    "regulationText2": "The standard issued by the FAO refers to packaging material in raw (solid) softwood or hardwood; it therefore includes all wooden packaging, such as pallets (both new and used), stowage materials (dunnage), crates, drums, reels and loading platforms.",
+    "trademarkText": "The trademark consists of the international symbol 'IPPC', the ISO country code consisting of two letters followed by a unique number assigned by the NPPO to the manufacturer of the wood packaging material who is responsible for ensuring the use of appropriate wood and duly marked and the abbreviation for the treatment measure used (HT).",
+    "approvedMeasures": "Approved measures for wood packaging material are:",
+    "measure1": "heat treatment (HT),",
+    "measure2": "fumigation treatment with methyl bromide (MB) – banned in the EU since March 2010",
+    "companyDifferentiation": "The company has been able to distinguish itself over the years for having invested heavily in R&D, always devising innovative and ad-hoc solutions precisely to give its customers something more!",
+    "ecoCommitment": "And while strongly committed to designing new technologically advanced systems, BIGonDRY Srl is increasingly focused on eco-sustainable processes and the construction of eco-compatible systems in order to create an opportunity for development but with attention to optimizing energy consumption, combining the best relationship between quality and price, with excellent performance thanks to the most recent technological innovations (Direct Generator Heating System, TOP control systems with monitoring and management of Energy costs, heat recovery units, here are just a few:",
+    "speedHeading": "SPEED:",
+    "speedText": "Optimization of process times with very high efficiency heating systems so as to be able to carry out ISPM-15 treatment cycles in an average time of 3-4 hours.",
+    "qualityHeading": "QUALITY:",
+    "qualityText": "The highly advanced control systems, with extremely precise probes and measurement systems, allow for high quality and fully automatic processes.",
+    "energyHeading": "ENERGY SAVING:",
+    "energyText": "Thanks to the use of heat recovery units, inverter-controlled actuators and enhanced and efficient heating systems, we have obtained the lowest energy consumption per cycle.",
+    "controlHeading": "CONTROL:",
+    "controlText": "Important energy management functions have been implemented in the VENUS 2500 controllers, recording and storing the consumption parameters detected during the performance of the drying cycles, quantifying them both in terms of energy (power in kW) and in terms of cost, after introducing energy costs unitary (€ / kWh). The function allows you to create a historical archive by comparing different types of cycles and giving an immediate image of real consumption for various essences, having different thicknesses and in different external conditions.",
+    "consumptionTableHeading": "Below is a table with some consumptions:",
+    "tableHeader1": "Load capacity:",
+    "tableHeader2": "Es. models",
+    "tableHeader3": "ISPM-15 treatment times",
+    "tableHeader4": "Average heat consumption for ISPM-15 m3 methane gas / cycle",
+    "tableHeader5": "Total average heat consumption for ISPM-15 + drying m3 methane gas / pallet",
+    "tableRow1Cell1": "200-300 pallets<br/>15-20 cm slatted wood",
+    "tableRow1Cell2": "LEM 46.43.24",
+    "tableRow1Cell3": "3-4 h",
+    "tableRow1Cell4": "13-16",
+    "tableRow1Cell5": "0,35-0,40",
+    "tableRow2Cell1": "400-500 pallets<br/>30-35 cm slatted wood",
+    "tableRow2Cell2": "LEM 56.58.34",
+    "tableRow2Cell3": "3-4 h",
+    "tableRow2Cell4": "25-35",
+    "tableRow2Cell5": "0,35-0,40",
+    "tableRow3Cell1": "800-1000 pallets<br/>40-50 cm slatted wood",
+    "tableRow3Cell2": "LEM 66.73.34",
+    "tableRow3Cell3": "3-4 h",
+    "tableRow3Cell4": "50-70",
+    "tableRow3Cell5": "0,35-0,40",
+    "tableRow4Cell1": "1500-2000 pallets<br/>80-100 cm slatted wood",
+    "tableRow4Cell2": "LEM 86.103.34",
+    "tableRow4Cell3": "3-4 h",
+    "tableRow4Cell4": "100-140",
+    "tableRow4Cell5": "0,35-0,40"
+  },
+  "woodDrying": {
+    "sliderTitle": "Why to dry the wood?",
+    "mainTitle": "Why to dry the wood?",
+    "paragraph1": "Wood is a hygroscopic material, it receives or loses humidity, depending on the climate that surrounds it; by modifying the climate in a controlled way, drying can be accelerated. There are different techniques for drying, the most common and widespread is the traditional or conventional drying.",
+    "paragraph2": "Traditional drying takes advantage of the physical properties of air to contain more water as the temperature increases.",
+    "checkTitle": "So in the drying process is important to check:",
+    "checkItems": {
+      "temp": "The air temperature",
+      "humidity": "The relative humidity of the air",
+      "ventilation": "The ventilation"
+    },
+    "tempTitle": "The air temperature",
+    "tempText": "Let's imagine a conventional drying cell, completely hermetic and insulated: by introducing cold air from the outside and then heated, the air increases the ability to absorb moisture from the wood.",
+    "humidityTitle": "The relative humidity of the air",
+    "humidityText": "It is the relationship between the amount of water contained in the air at a given temperature. It can therefore be defined that on a traditional dryer, the air enters cold and therefore dry and comes out hot but humid, moisture that is released from the surface of the wood by means of ventilation.",
+    "ventilationTitle": "The ventilation",
+    "ventilationText": "Ventilation is the vehicle that transports humidity and temperature. It can be defined that, in traditional dryers, the air heated by the heat exchangers acquires the capacity to contain water and therefore with the ventilation it is conveyed into the wooden stacks that release their humidity to the air, when the air is saturated, it is expelled.",
+    "controlText": "To control the processes in the drying kilns we must therefore control the temperature, relative humidity and ventilation.",
+    "experimentalText": "For an adequate wood drying process, temperature and relative humidity values must be used which have already been experimentally determined for each type of wood essence."
+  },
+  "vaporization": {
+    "sliderTitle": "Why to vaporize the wood?",
+    "mainHeader": "Why to vaporize the wood?",
+    "text1": "The steaming chambers have the purpose of homogenizing and slightly modifying the color of the wood and removing any presence and effect of parasites, in order to make the wood more workable.",
+    "text2": "Inside the wood, the acids subjected to a 100% humid environment and at temperatures of about 90÷95°C, tend to melt and, from the central part of the wood, spread evenly over the section, homogeneously coloring the whole paste of the wood. Vaporization also serves to neutralize the action of bacteria and parasites that could, over time, attack and alter the good condition of the wood. The fibers of the wood, subjected to this treatment, are softened, facilitating the subsequent drying and processing of the wood itself. The vaporization treatment is normally applied to some essences such as Beech, Cherry, Walnut and some tropical species. The wood must be freshly cut, in logs (for shearing or for peeling) or in the form of sawn timber.",
+    "text3": "BIGonDRY Srl has developed various vaporization systems, depending on the thermal agent available and the energy generator used. In the steamer, the steam can be obtained in a \"direct\" way (direct injection of saturated steam, at low pressure) or in an \"indirect\" way (evaporation of the water contained in special tanks inside the chamber).",
+    "directSteaming": "a) Direct Steaming",
+    "text4": "The steam is injected into the compartment containing the timber through a series of perforated pipes located under the stack, along the three walls. The vapor must be saturated or nearly saturated, and must expand in the chamber until it reaches atmospheric pressure. If you do not have saturated steam, it must be moistened (the steam is blown against the water made to enter under the steam tube in a special channel). The holes in the pipe must be turned towards the floor and not against the timber in order not to cause local overheating and drying.",
+    "indirectSteaming": "b) Indirect Steaming",
+    "traditionalSystem": "Traditional System",
+    "text5": "The steam is produced inside the steaming chamber by bringing the water contained in special stainless steel tanks to a boil, arranged below the floor level, along the three walls not affected by the door, under the stack. Inside these tanks a traditional heating battery is immersed in which superheated water or steam flows as a thermal agent. Using this system it is necessary to keep the water level in the tanks constant.",
+    "directBurnerSystem": "Direct Burner System",
+    "text6": "The steam is produced inside the vaporization chamber by bringing the water contained in special stainless steel tanks to a boil, arranged below the floor level, along the three walls not affected by the door, under the stack. Inside these tanks there is a direct heating battery heated by the flame of a gas burner. Using this system it is necessary to keep the water level in the tanks constant.",
+    "tableTitle": "Comparison between Direct and Indirect Systems",
+    "tableRow1": {
+      "direct": "Easier tube plant",
+      "indirect": "Mild treatment of the wood, which minimizes the risk of damage"
+    },
+    "tableRow2": {
+      "direct": "It is necessary to have saturated steam at low pressure",
+      "indirect": "Possibility of condensation recovery, with obvious energy savings"
+    },
+    "text7": "All the systems described above are controlled by a microprocessor, developed directly by BIGonDRY Srl in collaboration with a software house. This system allows the step-by-step control of the cycle phases according to Time and Temperature. Each program can be registered with a code, recalled, modified and reused for subsequent cycles.",
+    "text8": "Sensors are used to detect the temperature in the chamber and also in the wood. This allows the cycle to be carried out according to the actual temperature detected in the heart of the wood, which ensures a finer and more precise control of the process, since the climatic conditions of the air change faster than inside the wood and are more influenced by the external climatic conditions."
+  }
+}

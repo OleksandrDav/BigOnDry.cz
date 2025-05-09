@@ -4,10 +4,13 @@ import Cheeseburger from "../Cheeseburger";
 import NavMenu from "./NavMenu";
 import NavLogo from "./NavLogo";
 import { MENU_SECTIONS } from "../../constants/menuSections";
+import { useTranslation } from "react-i18next";
+import LanguageSelector from "../LanguageSelector/LanguageSelector";
 
 const Navbar: React.FC = () => {
   const [toggled, setToggled] = useState<boolean>(false);
   const [isScrolled, setIsScrolled] = useState<boolean>(false);
+  const { t } = useTranslation('menu');
 
   const toggle = () => setToggled((prev) => !prev);
 
@@ -31,6 +34,14 @@ const Navbar: React.FC = () => {
     };
   }, [toggled]);
 
+  const translatedMenuSections = MENU_SECTIONS.map(section => ({
+    title: t(`sections.${section.title.toLowerCase()}`),
+    links: section.links.map(link => ({
+      ...link,
+      name: t(`links.${link.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`)
+    }))
+  }));
+
   return (
     <>
       <nav
@@ -47,10 +58,11 @@ const Navbar: React.FC = () => {
         />
 
         <NavLogo toggled={toggled} isScrolled={isScrolled} />
+        <LanguageSelector isScrolled={isScrolled && !toggled} />
       </nav>
 
       {/* Full-screen menu */}
-      {toggled && <NavMenu menuSections={MENU_SECTIONS} onLinkClick={toggle} />}
+      {toggled && <NavMenu menuSections={translatedMenuSections} onLinkClick={toggle} />}
     </>
   );
 };

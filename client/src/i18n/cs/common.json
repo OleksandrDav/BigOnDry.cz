@@ -1,0 +1,274 @@
+{
+  "article": {
+    "title": "Sušárny dřeva a zařízení pro tepelnou úpravu",
+    "description": "BIGonDRY je italská společnost, která vyrábí sušárny dřeva a zařízení pro tepelnou úpravu. Od roku 2001 BIGonDRY studuje a navrhuje systémy \"na klíč\" pro jakýkoliv požadavek a doprovází zákazníka na jeho cestě růstu."
+  },
+  "footer": {
+    "company": "BIGonDRY Srl",
+    "address": "Viale Giovanni Falcone, 30\n31037 Castione di Loria (TV)\nItálie",
+    "email": "info@bigondry.cz",
+    "dubai": "Dubaj – Abú Zabí",
+    "dubaiAddress": "48 Burj Gate, 10. patro, místnost č. 1001, Downtown, Dubaj (SAE)\n7. patro, CI Tower, Khalidiya Area, Abú Zabí (SAE)",
+
+    "insights": "Články",
+    "insightsLinks": {
+      "drying": "Proč sušit dřevo?",
+      "ispm15": "Proč dělat ošetření ISPM-15?",
+      "thermo": "Proč tepelně upravovat dřevo?",
+      "vapor": "Proč dřevo napařovat?"
+    },
+
+    "products": "Produkty",
+    "productLinks": {
+      "dryingKilns": "Sušárny dřeva",
+      "ispm15": "Zařízení pro ISPM-15",
+      "thermo": "Sušárny pro tepelnou úpravu",
+      "steaming": "Napařovací komory",
+      "biomass": "Systémy pro sušení biomasy",
+      "spare": "Náhradní díly a servis"
+    },
+
+    "copyright": "© {{year}} BIGonDRY Srl. Všechna práva vyhrazena."
+  },
+  "polygonSection": {
+    "label": "Články",
+    "text": "Objevte význam správného sušení nebo specifické tepelné úpravy dřeva. Každá metoda má své výhody.",
+    "proposal": "Zjistěte, co potřebujete!"
+  },
+  "productInsights": {
+    "sectionTitle": "Články o produktech"
+  },
+  "headers": {
+    "products": "Produkty",
+    "insights": "Články"
+  },
+  "requestInformation": {
+    "title": "Zaslat dotaz",
+    "subtitle": "Vyplňte formulář níže a náš tým se vám co nejdříve ozve.",
+    "fields": {
+      "name": "Celé jméno",
+      "email": "Email",
+      "company": "Společnost",
+      "phone": "Telefonní číslo",
+      "message": "Zpráva"
+    },
+    "placeholders": {
+      "name": "Vaše celé jméno",
+      "email": "vase@email.cz",
+      "company": "Název společnosti",
+      "phone": "+420 123 456 789",
+      "message": "Popište prosím podrobnosti svého dotazu..."
+    },
+    "submit": "Odeslat",
+    "submitting": "Odesílání...",
+    "success": "Děkujeme! Váš dotaz byl úspěšně odeslán.",
+    "failure": "Nepodařilo se odeslat formulář. Zkuste to prosím znovu.",
+    "error": "Došlo k neočekávané chybě. Zkuste to prosím později.",
+    "errors": {
+      "nameRequired": "Jméno je povinné",
+      "nameLength": "Jméno musí mít 2–62 znaků",
+      "emailRequired": "Email je povinný",
+      "emailInvalid": "Neplatný formát emailu",
+      "companyRequired": "Společnost je povinná",
+      "companyLength": "Název společnosti musí mít 2–100 znaků",
+      "messageRequired": "Zpráva je povinná",
+      "messageLength": "Zpráva musí mít 5–5000 znaků"
+    }
+  },
+  "slider": {
+    "requestInformation": "Požádat o informace",
+    "closePopup": "Zavřít okno",
+    "next": "Další snímek",
+    "previous": "Předchozí snímek"
+  },
+  "thermoModify": {
+    "sliderTitle": "Proč tepelně upravovat dřevo?",
+    "mainHeader": "Proč tepelně upravovat dřevo?",
+    "text1": {
+      "part1": "Termicky upravené dřevo (LTM) je stále více známé po celém světě díky výhodám, které tento proces přináší na všech úrovních dodavatelského řetězce. Díky tepelnému ošetření získává dřevo větší ",
+      "strong1": "odolnost, stabilitu a vzhled",
+      "part2": ". Je mnohem méně citlivé na smršťování a bobtnání, získává značnou odolnost proti napadení parazity a získá elegantní vzhled, který je homogenní v celé tloušťce materiálu."
+    },
+    "text2": {
+      "part1": "Cílem bylo optimalizovat technologii procesu vyvinutou společností BIGonDRY v aspektech souvisejících s náklady, dopadem na životní prostředí, bezpečností a standardizací výroby termicky upraveného dřeva (LTM) s prokázanými vlastnostmi ",
+      "strong1": "odolnosti, stability a vzhledu",
+      "part2": "."
+    },
+    "text3": {
+      "part1": "Produkty, které vznikají v rámci těchto ",
+      "strong1": "procesů",
+      "part2": ", jsou považovány za ",
+      "strong2": "zcela biokompatibilní",
+      "part3": ", protože se nepoužívají žádné chemikálie jakéhokoli druhu. Tento proces dává dřevu silnou konkurenceschopnost ve srovnání s alternativními materiály, včetně dřeva upraveného jinými technologiemi nebo přírodního dřeva, protože získává větší ",
+      "strong3": "odolnost a stabilitu",
+      "part4": ", vyhýbá se nutnosti chemického ošetření dřeva a také eliminuje možnost napadení hmyzem a získá ",
+      "strong4": "homogenní tmavou barvu dřeva v celé tloušťce",
+      "part5": "."
+    },
+    "imageAlt": "Termická úprava",
+    "sectionHeading1": "Systém BIGonDRY-THW",
+    "text4": "Systém BIGonDRY-THW je proces v přítomnosti nasycené páry, který díky mírnému přetlaku umožňuje pracovat při teplotě blízké 230°C v prostředí bez kyslíku, využívá přirozenou produkci plynu ze dřeva (pára během první fáze a plyn z pyrolýzy během fáze vysoké teploty) a v případě potřeby řízeným odpařováním přímého zdroje vody dodávaného systémem. V důsledku toho systém BIGonDRY-THW používá minimální množství páry, což umožňuje dosáhnout ekologického přístupu k procesu s následujícími výhodami:",
+    "listItem1": "Nižší energetická náročnost ve srovnání s jinými HT systémy, které používají velké množství přehřáté páry;",
+    "listItem2": "Omezené emise plynů do životního prostředí;",
+    "listItem3": "Vysoce konkurenceschopné náklady na zařízení",
+    "text5": "Kvalita a výkon produktů jsou prokázány v praxi spokojeností zákazníků a spoluprací s nezávislými výzkumnými a experimentálními ústavy v Itálii.",
+    "sectionHeading2": "Environmentální aspekty",
+    "text6": "BIGonDRY také věnuje velkou pozornost životnímu prostředí a nedávné analýzy provedené na vysokoteplotních cyklech pro plynné, kapalné a pevné emise z rostliny odhalily uklidňující data. BIGonDRY je schopna vybavit THW tepelné úpravny velmi účinnými filtračními systémy, aby co nejlépe snížila spotřebu \"čisté\" vody, čímž dosáhne ekonomických i environmentálních úspor. Kromě toho nelze podceňovat extraktivy obsažené v recyklované vodě, které často přispívají ke zlepšení nejen vzhledu tepelně upraveného dřeva, ale také jeho kvality, protože může absorbovat některé extraktivy dříve rozpuštěné v kapalině a tím znovu získat některé chemicky důležité látky pro účinky trvanlivosti a zlepšení některých fyzikálních vlastností.",
+    "sectionHeading3": "Průběžné zlepšování",
+    "text7": "Technický personál BIGonDRY neustále hledá zlepšení v programech sušení i tepelného ošetření, přičemž se neustále snaží nejen získat produkt, který je stále více přizpůsoben požadavkům trhu, ale také s ohledem na životní prostředí a úsporu energie.",
+    "sectionHeading4": "Konečné kondicionování",
+    "text8": "Velmi důležité fáze konečného kondicionování odlišují produkt a jeho stabilitu, ve skutečnosti v těchto fázích vlhkost získaná prostřednictvím kontrolovaných fází zvlhčování umožňuje přiznat rozměrovou stabilitu, která tento produkt charakterizuje. Tato fáze ošetření je nezbytná, aby byl materiál vhodný pro následné zpracování a poskytl koncovému zákazníkovi odolný, odolný, ale také snadno zpracovatelný materiál."
+  },
+  "company": {
+    "sliderTitle": "Společnost",
+    "heading": "BIGonDRY Srl: společnost se zkušenostmi a vášní v návrhu a výstavbě zařízení a systémů pro sušení, napařování a tepelné ošetření dřeva.",
+    "text1": {
+      "part1": "Vášeň a zkušenosti spojují dvě generace, otce a syna, a vedly v roce 2001 k založení ",
+      "strong1": "BIGonDRY Srl",
+      "part2": ", společnosti specializující se na návrh a výstavbu systémů pro sušení, napařování a tepelné ošetření dřeva."
+    },
+    "text2": "Stálým cílem je zhodnocení suroviny, jako je dřevo, která je stejně starobylá jako základní v dnešní globální ekonomice.",
+    "text3": {
+      "strong1": "Made in Italy",
+      "part1": " technologie kombinované s plně automatickými řídicími systémy vytvářejí systémy navržené také s ohledem na provozní ekonomiku s důležitými úsporami energie."
+    },
+    "text4": {
+      "strong1": "BIGonDRY srl",
+      "part1": " je pečlivý a svědomitý partner, který chce zajistit vynikající kvalitní standard používáním kvalitních materiálů a vysokých stavebních standardů i u nejjednodušších produktů. BIGonDRY skutečně studuje každou žádost s pozorností a nasazením, od ošetření palivového dřeva po sušení vzácných dřevin, speciální tepelné modifikace a fytosanitární ošetření pro sektor balení. Vyprodukovala také speciální systémy ošetření v oděvním a zemědělsko-potravinářském sektoru, kde uspěla.",
+      "strong2": "",
+      "part2": ""
+    },
+    "text5": "Díky synergii mezi spolupracovníky s mnohaletými zkušenostmi v oboru a mladými a kreativními silami, s velmi důležitou přípravou, plnou nadšení a vynalézavosti, bylo možné vytvořit výrobní a obchodní realitu schopnou úspěšně působit a nabízet VLASTNÍ a INOVATIVNÍ ŘEŠENÍ, od sušáren až po výstavbu zařízení na klíč, kompletních se systémem výroby tepelné a elektrické energie, s flexibilitou přizpůsobit se jakýmkoli okolnostem.",
+    "text6": {
+      "strong1": "BIGonDRY srl",
+      "part1": " má asi třicet zaměstnanců a mnoho zástupců v Itálii a ve zbytku světa, s organizovanými zastoupeními na místě. Silná profesionalitou a technickou a obchodní přípravou je schopna komunikovat v mnoha jazycích, stejně jako instalovat a testovat systémy na klíč, s vnitřní jazykovou podporou jako: angličtina, francouzština, němčina, španělština, maďarština, rumunština, srbština-chorvatština a ruština."
+    },
+    "text7": "Stovky systémů instalovaných ve více než 50 zemích světa ... spolehlivost a kvalita jsou plusem BIGonDRY Srl.",
+    "insights": {
+      "heading": "Naše pracovní prostory",
+      "technicalOffices": "Technické kanceláře",
+      "executiveOffices": "Vedoucí kanceláře",
+      "commercialOffices": "Obchodní kanceláře",
+      "meetingRoom": "Jednací místnost",
+      "administrativeOffices": "Administrativní kanceláře"
+    }
+  },
+  "contacts": {
+    "sliderTitle": "Kontakty",
+    "companyName": "BIGonDRY Srl",
+    "office1": {
+      "title": "SÍDLO SPOLEČNOSTI:",
+      "line1": "Via Tozzi, 7",
+      "line2": "36020 Pove del Grappa (VI)",
+      "line3": "Itálie"
+    },
+    "office2": {
+      "title": "ADMINISTRATIVNÍ SÍDLO / VÝROBA:",
+      "line1": "Viale G. Falcone, 30",
+      "line2": "31037 Castione di Loria (TV)",
+      "line3": "Itálie"
+    },
+    "office3": {
+      "title": "DUBAJ – ABÚ ZABÍ",
+      "line1": "48 Burj Gate, 10. patro, místnost #1001, Downtown, Dubaj (SAE)",
+      "line2": "7. patro, CI Tower, khalidiya Area, Abú Zabí (SAE)"
+    },
+    "contact": {
+      "mail": "E-mail:",
+      "preferred": "(Preferovaný způsob kontaktu)",
+      "tel": "Tel."
+    }
+  },
+  "ispm15": {
+    "sliderTitle": "Proč dělat ošetření ISPM-15?",
+    "mainHeader": "Proč dělat ošetření ISPM-15?",
+    "regulationHeading": "Regulace dřevěných obalových materiálů v mezinárodním obchodu",
+    "regulationText1": "Standard FAO ISPM 15 je nyní platný v mnoha zemích a samozřejmě stále více zemí bude vyžadovat dřevěné exportní obaly, které tomuto standardu vyhovují.",
+    "regulationText2": "Standard vydaný FAO se vztahuje na obalové materiály z neopracovaného (masivního) měkkého nebo tvrdého dřeva; zahrnuje tedy všechny dřevěné obaly, jako jsou palety (nové i použité), vykládací materiály (dunnage), bedny, barely, cívky a nakládací plošiny.",
+    "trademarkText": "Ochranná známka se skládá z mezinárodního symbolu 'IPPC', kódu země ISO sestávajícího ze dvou písmen následovaného jedinečným číslem přiděleným NPPO výrobci dřevěných obalových materiálů, který je odpovědný za zajištění použití vhodného dřeva a řádného označení, a zkratky použitého způsobu ošetření (HT).",
+    "approvedMeasures": "Schválené metody pro dřevěné obalové materiály jsou:",
+    "measure1": "tepelná úprava (HT),",
+    "measure2": "fumigace methylbromidem (MB) – v EU zakázáno od března 2010",
+    "companyDifferentiation": "Společnost se v průběhu let dokázala odlišit tím, že výrazně investovala do výzkumu a vývoje, vždy navrhovala inovativní a ad-hoc řešení, aby svým zákazníkům nabídla něco navíc!",
+    "ecoCommitment": "Zatímco se BIGonDRY Srl intenzivně věnuje návrhu nových technologicky pokročilých systémů, stále více se zaměřuje na ekologicky udržitelné procesy a výstavbu ekologicky kompatibilních systémů, aby vytvořila příležitost pro rozvoj, ale s ohledem na optimalizaci spotřeby energie, kombinující nejlepší vztah mezi kvalitou a cenou, s vynikajícím výkonem díky nejnovějším technologickým inovacím (systém přímého ohřevu generátorem, TOP řídicí systémy s monitorováním a správou energetických nákladů, jednotky pro rekuperaci tepla, zde je jen několik příkladů:",
+    "speedHeading": "RYCHLOST:",
+    "speedText": "Optimalizace časů procesů s vysoce účinnými topnými systémy, aby bylo možné provádět cykly ošetření ISPM-15 v průměrném čase 3-4 hodin.",
+    "qualityHeading": "KVALITA:",
+    "qualityText": "Vysoce pokročilé řídicí systémy s extrémně přesnými sondami a měřicími systémy umožňují vysokou kvalitu a plně automatické procesy.",
+    "energyHeading": "ÚSPORA ENERGIE:",
+    "energyText": "Díky použití jednotek pro rekuperaci tepla, aktuátorů řízených měniči a vylepšených a účinných topných systémů jsme dosáhli nejnižší spotřeby energie na cyklus.",
+    "controlHeading": "KONTROLA:",
+    "controlText": "V řídicích jednotkách VENUS 2500 byly implementovány důležité funkce pro správu energie, které zaznamenávají a ukládají parametry spotřeby zjištěné během provádění sušících cyklů, kvantifikují je jak z hlediska energie (výkon v kW), tak z hlediska nákladů po zavedení jednotkových nákladů na energii (€/kWh). Funkce umožňuje vytvořit historický archiv porovnáním různých typů cyklů a poskytuje okamžitý obraz skutečné spotřeby pro různé druhy dřeva s různými tloušťkami a v různých vnějších podmínkách.",
+    "consumptionTableHeading": "Níže je tabulka s některými spotřebami:",
+    "tableHeader1": "Nosnost:",
+    "tableHeader2": "Př. modely",
+    "tableHeader3": "Časy ošetření ISPM-15",
+    "tableHeader4": "Průměrná spotřeba tepla pro ISPM-15 m3 zemního plynu / cyklus",
+    "tableHeader5": "Celková průměrná spotřeba tepla pro ISPM-15 + sušení m3 zemního plynu / paleta",
+    "tableRow1Cell1": "200-300 palet<br/>15-20 cm laťované dřevo",
+    "tableRow1Cell2": "LEM 46.43.24",
+    "tableRow1Cell3": "3-4 h",
+    "tableRow1Cell4": "13-16",
+    "tableRow1Cell5": "0,35-0,40",
+    "tableRow2Cell1": "400-500 palet<br/>30-35 cm laťované dřevo",
+    "tableRow2Cell2": "LEM 56.58.34",
+    "tableRow2Cell3": "3-4 h",
+    "tableRow2Cell4": "25-35",
+    "tableRow2Cell5": "0,35-0,40",
+    "tableRow3Cell1": "800-1000 palet<br/>40-50 cm laťované dřevo",
+    "tableRow3Cell2": "LEM 66.73.34",
+    "tableRow3Cell3": "3-4 h",
+    "tableRow3Cell4": "50-70",
+    "tableRow3Cell5": "0,35-0,40",
+    "tableRow4Cell1": "1500-2000 palet<br/>80-100 cm laťované dřevo",
+    "tableRow4Cell2": "LEM 86.103.34",
+    "tableRow4Cell3": "3-4 h",
+    "tableRow4Cell4": "100-140",
+    "tableRow4Cell5": "0,35-0,40"
+  },
+  "woodDrying": {
+    "sliderTitle": "Proč sušit dřevo?",
+    "mainTitle": "Proč sušit dřevo?",
+    "paragraph1": "Dřevo je hygroskopický materiál, přijímá nebo ztrácí vlhkost v závislosti na okolním klimatu; úpravou klimatu řízeným způsobem lze sušení urychlit. Existují různé techniky sušení, nejběžnější a nejrozšířenější je tradiční nebo konvenční sušení.",
+    "paragraph2": "Tradiční sušení využívá fyzikálních vlastností vzduchu, který při vyšší teplotě může pojmout více vody.",
+    "checkTitle": "Při sušení je důležité kontrolovat:",
+    "checkItems": {
+      "temp": "Teplotu vzduchu",
+      "humidity": "Relativní vlhkost vzduchu",
+      "ventilation": "Ventilaci"
+    },
+    "tempTitle": "Teplota vzduchu",
+    "tempText": "Představme si konvenční sušicí komoru, která je zcela hermetická a izolovaná: zavedením studeného vzduchu zvenčí, který se následně ohřeje, se zvýší schopnost vzduchu absorbovat vlhkost ze dřeva.",
+    "humidityTitle": "Relativní vlhkost vzduchu",
+    "humidityText": "Je to poměr množství vody obsažené ve vzduchu při dané teplotě. Lze tedy definovat, že u tradiční sušárny vzduch vstupuje studený, tedy suchý, a vystupuje horký a vlhký – vlhkost, která se uvolňuje z povrchu dřeva pomocí ventilace.",
+    "ventilationTitle": "Ventilace",
+    "ventilationText": "Ventilace je prostředek, který přenáší vlhkost a teplotu. Lze říci, že v tradičních sušárnách ohřátý vzduch výměníky tepla získává schopnost pojmout vodu a pomocí ventilace se dostává mezi naskládané dřevo, které uvolňuje svou vlhkost do vzduchu. Když je vzduch nasycený, je odváděn ven.",
+    "controlText": "Abychom mohli řídit procesy v sušárnách, musíme tedy řídit teplotu, relativní vlhkost a ventilaci.",
+    "experimentalText": "Pro správné sušení dřeva je nutné používat hodnoty teploty a relativní vlhkosti, které byly již experimentálně určeny pro každý druh dřeviny."
+  },
+  "vaporization": {
+    "sliderTitle": "Proč dřevo napařovat?",
+    "mainHeader": "Proč dřevo napařovat?",
+    "text1": "Napařovací komory slouží k homogenizaci a mírnému úpravě barvy dřeva a odstranění případných parazitů, aby bylo dřevo lépe zpracovatelné.",
+    "text2": "Uvnitř dřeva kyseliny vystavené 100% vlhkému prostředí a teplotám kolem 90÷95°C mají tendenci tát a z centrální části dřeva se rovnoměrně rozprostírají po celém průřezu, homogenně zabarvují celou hmotu dřeva. Napařování také slouží k neutralizaci účinků bakterií a parazitů, které by mohly v průběhu času napadnout a narušit dobrý stav dřeva. Vlákna dřeva vystavená tomuto ošetření jsou změkčena, což usnadňuje následné sušení a zpracování dřeva. Napařování se obvykle aplikuje na některé dřeviny jako buk, třešeň, ořech a některé tropické druhy. Dřevo musí být čerstvě pokácené, v kmenech (pro stříhání nebo loupání) nebo ve formě řeziva.",
+    "text3": "BIGonDRY Srl vyvinula různé systémy napařování v závislosti na dostupném tepelném médiu a použité energetické jednotce. V napařovací komoře lze páru získat \"přímo\" (přímým vstřikováním nasycené páry při nízkém tlaku) nebo \"nepřímo\" (odpařováním vody obsažené ve speciálních nádržích uvnitř komory).",
+    "directSteaming": "a) Přímé napařování",
+    "text4": "Pára je vstřikována do prostoru obsahujícího dřevo pomocí série perforovaných trubek umístěných pod hromadou podél tří stěn. Pára musí být nasycená nebo téměř nasycená a musí se v komoře rozpínat, dokud nedosáhne atmosférického tlaku. Pokud nemáte nasycenou páru, musí být zvlhčena (pára je foukána proti vodě vstupující pod parní trubkou ve speciálním kanálu). Otvory v potrubí musí směřovat k podlaze a ne proti dřevu, aby nedošlo k lokálnímu přehřátí a vysušení.",
+    "indirectSteaming": "b) Nepřímé napařování",
+    "traditionalSystem": "Tradiční systém",
+    "text5": "Pára je vyráběna uvnitř napařovací komory přivedením vody obsažené ve speciálních nerezových nádržích k varu, umístěných pod úrovní podlahy podél tří stěn, které nejsou ovlivněny dveřmi, pod hromadou. Uvnitř těchto nádrží je ponořena tradiční topná baterie, ve které proudí přehřátá voda nebo pára jako tepelné médium. Při použití tohoto systému je nutné udržovat konstantní hladinu vody v nádržích.",
+    "directBurnerSystem": "Systém s přímým hořákem",
+    "text6": "Pára je vyráběna uvnitř napařovací komory přivedením vody obsažené ve speciálních nerezových nádržích k varu, umístěných pod úrovní podlahy podél tří stěn, které nejsou ovlivněny dveřmi, pod hromadou. Uvnitř těchto nádrží je přímá topná baterie ohřívaná plamenem plynového hořáku. Při použití tohoto systému je nutné udržovat konstantní hladinu vody v nádržích.",
+    "tableTitle": "Srovnání přímého a nepřímého systému",
+    "tableRow1": {
+      "direct": "Jednodušší potrubní systém",
+      "indirect": "Šetrné ošetření dřeva, které minimalizuje riziko poškození"
+    },
+    "tableRow2": {
+      "direct": "Je nutné mít nasycenou páru při nízkém tlaku",
+      "indirect": "Možnost rekuperace kondenzátu s výraznou úsporou energie"
+    },
+    "text7": "Všechny výše popsané systémy jsou řízeny mikroprocesorem, vyvinutým přímo společností BIGonDRY Srl ve spolupráci s softwarovou společností. Tento systém umožňuje postupnou kontrolu fází cyklu podle času a teploty. Každý program může být registrován s kódem, vyvolán, upraven a znovu použit pro následné cykly.",
+    "text8": "Pro detekci teploty v komoře a také v dřevě se používají senzory. To umožňuje provádět cyklus podle skutečné teploty zjištěné v srdci dřeva, což zajišťuje jemnější a přesnější kontrolu procesu, protože klimatické podmínky vzduchu se mění rychleji než uvnitř dřeva a jsou více ovlivněny vnějšími klimatickými podmínkami."
+  }
+}

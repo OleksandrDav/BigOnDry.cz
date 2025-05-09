@@ -1,54 +1,91 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import styles from './Footer.module.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import styles from "./Footer.module.css";
+import { useTranslation } from "react-i18next";
 
 const Footer: React.FC = () => {
+  const { t } = useTranslation('common');
+
   return (
     <footer className={styles.footer}>
       <div className={styles.columns}>
         <div className={styles.column}>
-          <h3>BIGonDRY Srl</h3>
+          <h3>{t("footer.company")}</h3>
           <p>
-            Viale Giovanni Falcone, 30<br />
-            31037 Castione di Loria (TV)<br />
-            Italy
+            <strong>
+              <a href="mailto:info@bigondry.cz">{t("footer.email")}</a>
+            </strong>
           </p>
-          <p >
-            <strong><a href="mailto:info@bigondry.cz">info@bigondry.cz</a></strong>
-          </p>
+          <p>{t("footer.address")}</p>
 
-          <h4>Dubai – Abu Dhabi</h4>
-          <p>
-            48 Burj Gate, 10th Floor, room #1001, Downtown, Dubai (UAE)<br />
-            7th Floor, CI Tower, Khalidiya Area, Abu Dhabi (UAE)<br />
-          </p>
+          <p>{t("footer.dubaiAddress")}</p>
         </div>
 
         <div className={styles.column}>
-          <h3>Insights</h3>
+          <h3>{t("footer.insights")}</h3>
           <ul>
-            <li><Link to="/insights/wood-drying">Why to dry the wood?</Link></li>
-            <li><Link to="/insights/ispm15">Why to do ISPM-15 treatment?</Link></li>
-            <li><Link to="/insights/thermo-modification">Why to thermo-modify the wood?</Link></li>
-            <li><Link to="/insights/vaporization">Why to vaporize the wood?</Link></li>
+            <li>
+              <Link to="/insights/wood-drying">
+                {t("footer.insightsLinks.drying")}
+              </Link>
+            </li>
+            <li>
+              <Link to="/insights/ispm15">
+                {t("footer.insightsLinks.ispm15")}
+              </Link>
+            </li>
+            <li>
+              <Link to="/insights/thermo-modification">
+                {t("footer.insightsLinks.thermo")}
+              </Link>
+            </li>
+            <li>
+              <Link to="/insights/vaporization">
+                {t("footer.insightsLinks.vapor")}
+              </Link>
+            </li>
           </ul>
         </div>
 
         <div className={styles.column}>
-          <h3>Products</h3>
+          <h3>{t("footer.products")}</h3>
           <ul>
-            <li><Link to="/products/drying-kilns/1">Drying Kilns</Link></li>
-            <li><Link to="/products/heat-treatment/2">Heat Treatment Plants (ISPM-15)</Link></li>
-            <li><Link to="/products/thermal-modification/3">Thermal Modification Kilns</Link></li>
-            <li><Link to="/products/steaming-chambers/4">Steaming Chambers</Link></li>
-            <li><Link to="/products/biomass-drying/5">Biomass Drying Systems</Link></li>
-            <li><Link to="/products/spare-parts/6">Spare parts and Assistance</Link></li>
+            <li>
+              <Link to="/products/drying-kilns/1">
+                {t("footer.productLinks.dryingKilns")}
+              </Link>
+            </li>
+            <li>
+              <Link to="/products/heat-treatment/2">
+                {t("footer.productLinks.ispm15")}
+              </Link>
+            </li>
+            <li>
+              <Link to="/products/thermal-modification/3">
+                {t("footer.productLinks.thermo")}
+              </Link>
+            </li>
+            <li>
+              <Link to="/products/steaming-chambers/4">
+                {t("footer.productLinks.steaming")}
+              </Link>
+            </li>
+            <li>
+              <Link to="/products/biomass-drying/5">
+                {t("footer.productLinks.biomass")}
+              </Link>
+            </li>
+            <li>
+              <Link to="/products/spare-parts/6">
+                {t("footer.productLinks.spare")}
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
 
       <div className={styles.bottom}>
-        <p>© {new Date().getFullYear()} BIGonDRY Srl. All rights reserved.</p>
+        <p>{t("footer.copyright", { year: new Date().getFullYear() })}</p>
       </div>
     </footer>
   );

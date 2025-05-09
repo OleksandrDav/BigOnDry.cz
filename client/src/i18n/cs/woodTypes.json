@@ -1,0 +1,126 @@
+{
+  "woodTypeCharacteristics": "Charakteristika druhů dřeva",
+  "examplesOfThermalVariation": "Příklady tepelné modifikace",
+  "characteristics": {
+    "Waterproofness": "Voděodolnost",
+    "Elasticity": "Elasticita",
+    "Swelling": "Bobtnání",
+    "Durability": "Trvanlivost",
+    "Pressure": "Tlaková odolnost"
+  },
+  "Spruce": {
+    "name": "Smrk",
+    "title": "Picea abies Karst.",
+    "description": {
+      "0": {
+        "0": "Smrk je rozšířen v Evropě a střední Asii, je vhodný pro alpské podnebí a má schopnost přizpůsobit se klimatické situaci, ve které se nachází, rozvojem vhodných charakteristik. Je snadno opracovatelný a má příznivé vlastnosti pro výrobu hudebních nástrojů a pro vnitřní stavební využití. Tepelné ošetření provedené v zařízení BIGonDRY THW má vliv na fyzikální a mechanické vlastnosti smrkového dřeva. Má zvláště pozitivní důsledky, pokud jde o ",
+        "1": "rozměrovou stabilitu",
+        "2": " parametry a trvanlivost dosahující ",
+        "3": "třídy 2"
+      }
+    }
+  },
+  "Douglas": {
+    "name": "Douglaska",
+    "title": "Pseudotsuga menziesii",
+    "description": {
+      "0": {
+        "0": "Douglaska pochází ze západního pobřeží Spojených států amerických, preferuje mírné a vlhké podnebí. Je to jedna z nejvyšších rostlin na světě, její kmen může dosáhnout výšky 75 m, ale průměr zůstává středně omezený. Používá se ve stavebnictví: lodě, mosty, domy, truhlářství obecně, železniční nápravy, právě díky své lehkosti, pevnosti, pružnosti a odolnosti vůči povětrnostním vlivům. Tepelné ošetření provedené v zařízení BIGonDRY THW má vliv na fyzikální a mechanické vlastnosti. Minimálně ovlivňuje hustotu tepelně upraveného materiálu při různých teplotách, ale má velmi pozitivní vliv na rozměrovou stabilitu. Pokud jde o ",
+        "1": "trvanlivost ",
+        "2": "dochází ke zlepšení třídy v závislosti na teplotě tepelného ošetření, dosahuje se ",
+        "3": "třídy 2",
+        "4": "."
+      }
+    }
+  },
+  "Scots Pine": {
+    "name": "Borovice lesní",
+    "title": "Pinus sylvestris L",
+    "description": {
+      "0": {
+        "0": "Je to nejrozšířenější jehličnan v Evropě, má velmi vysokou přizpůsobivost různým klimatickým podmínkám a půdám. Používá se ve stavebnictví, truhlářství, nábytkářství a pro výrobu papírové buničiny. Tepelné ošetření provedené v zařízení BIGonDRY THW má vliv na fyzikální a mechanické vlastnosti borového dřeva. Má zvláště pozitivní důsledky, pokud jde o ",
+        "1": "rozměrovou stabilitu",
+        "2": " parametry a trvanlivost dosahující ",
+        "3": "třídy 2"
+      }
+    }
+  },
+  "Maritime Pine": {
+    "name": "Borovice přímořská",
+    "title": "Pinus pinaster Aiton",
+    "description": {
+      "0": {
+        "0": "Borovice přímořská se vyvíjí hlavně v blízkosti pobřeží Středozemního moře, ve skutečnosti vděčí za svůj název své predispozici růst v písčitých oblastech. Vyvíjí velmi vysoké kmeny a je ovládána korunou tvořenou hustými zelenými jehlicemi. Hodně se používá pro extrakci své pryskyřice, méně pro vlastní dřevo, přestože je snadno opracovatelné. Tepelné ošetření provedené v zařízení BIGonDRY THW má ",
+        "1": "velmi pozitivní účinek na zvýšení rozměrové stability a tlakové pevnosti. ",
+        "2": "Parametr, který je tepelným ošetřením nejvíce pozitivně ovlivněn, je ",
+        "3": "trvanlivost. ",
+        "4": "Zlepšení jsou obzvláště patrná při vysokých teplotách, při kterých je dosaženo ",
+        "5": "třídy 1",
+        "6": "."
+      }
+    }
+  },
+  "Beech": {
+    "name": "Buk",
+    "title": "Fagus sylvatica L.",
+    "description": {
+      "0": {
+        "0": "Buk má díky své schopnosti přizpůsobit se růstu v různých klimatických podmínkách rozmanité rozšíření. Je to velmi dlouhověká, pomalu rostoucí rostlina, charakterizovaná mírně zužujícími se kmeny a velmi tenkou šedavou kůrou. Jeho dřevo je ceněno pro svou tvrdost a kompaktnost, což ho činí vhodným pro výrobu nábytku, kuchyňského náčiní a pro soustružení. Výhody přinesené tepelnou modifikací z hlediska rozměrové stability jsou značné: dosahuje se účinnosti proti bobtnání téměř 60%. ",
+        "1": "Trvanlivost se mění z třídy 5 na třídu 2 ",
+        "2": "což má extrémně pozitivní účinek a výrazně prodlužuje očekávanou životnost dřeva."
+      }
+    }
+  },
+  "Ash": {
+    "name": "Jasan",
+    "title": "Fraxinus spp.",
+    "description": {
+      "0": {
+        "0": "Jasan má tendenci růst v prostředích s mírným podnebím. Vyvíjí se velmi vysoký s válcovitým a zvláště rovným kmenem. Silně známý pro použití, které lze vyrobit z kůry a listů pro léčebné a léčivé účely, a také vynikající jako palivo, a tedy pro výrobu palivového dřeva a ceněný pro svou snadné zpracování, odolnost a pružnost. Tepelné ošetření přináší velký prospěch z hlediska rozměrové stability, účinnost proti zpětnému vstřebávání vlhkosti a následnému bobtnání bude více než dvojnásobná ve srovnání s neošetřeným materiálem. ",
+        "1": "Trvanlivost ",
+        "2": "je vlastnost, která je tepelným ošetřením nejvíce pozitivně ovlivněna a ve skutečnosti ",
+        "3": "dosahuje třídy 1."
+      }
+    }
+  },
+  "Poplar": {
+    "name": "Topol",
+    "title": "Populus spp.",
+    "description": {
+      "0": {
+        "0": "Topol je rozšířen po celé severní polokouli, kůra je hladká u mladých exemplářů a časem se stává drsnou. Barva dřeva má tendenci být bílo-světle žlutá. Je vysoce ceněn pro svou lehkost a používá se v papírenském průmyslu, obalovém průmyslu a výrobě překližkových panelů. Tepelné ošetření provedené v zařízení BIGonDRY THW má velmi ",
+        "1": "pozitivní účinek na rozměrovou stabilitu,",
+        "2": " zlepšuje ji asi o 50%. Pozitivní účinky tepelného ošetření jsou také patrné v parametrech tlakové pevnosti a modulu pružnosti. Nejpřekvapivější údaj je však ",
+        "3": " zlepšení trvanlivosti, které dosahuje třídy 1",
+        "4": " s tepelným ošetřením."
+      }
+    }
+  },
+  "Oak": {
+    "name": "Dub",
+    "title": "Quercus petraea Liebl.",
+    "description": {
+      "0": {
+        "0": "Dub je rozšířen po celé Evropě s výjimkou italských ostrovů. Preferuje tedy kontinentální podnebí a vystupuje do nadmořských výšek až 1000 metrů. Jeho přirozené dřevo je považováno za cenné pro svou hustotu a hmotnost a pro světle hnědou barvu. Používá se pro výrobu podlah, nábytku a sudů pro zrání jemných likérů. Tepelné ošetření provedené v zařízení BIGonDRY THW přináší významné zlepšení z hlediska rozměrové stability, účinky ",
+        "1": "zpětného vstřebávání vlhkosti a bobtnání ",
+        "2": "způsobené stejným jsou ",
+        "3": "sníženy o 55%. ",
+        "4": "Trvanlivost je již u přírodního dřeva velmi dobrá, ",
+        "5": "ošetření tuto vlastnost ještě zlepšuje."
+      }
+    }
+  },
+  "Tulipier": {
+    "name": "Liliovník tulipánokvětý",
+    "title": "Liriodendron tulipifera L.",
+    "description": {
+      "0": {
+        "0": "Liliovník tulipánokvětý je druh dřeva pocházející ze Spojených států amerických, přesněji z východní části. Je však také pěstován po celé Evropě jako okrasná rostlina. Jako strom, který roste vysoko a rovně, poskytuje dřevo, které se svými charakteristikami zpracovatelnosti, stability a specifické hmotnosti hodí pro velké množství použití. Má bělavou barvu, zřetelné žilkování s tmavými nebo nazelenalými plameny. Tepelné ošetření provedené systémem BIGonDRY THW má pozitivní účinky týkající se rozměrové stability, které definují ",
+        "1": "zlepšení hygroskopické účinnosti a proti bobtnání, které dosahuje až 50%",
+        "2": "Očekávaná životnost tohoto druhu dřeva se po tepelném ošetření výrazně prodlužuje, ve skutečnosti jsme dosáhli ",
+        "3": "třídy 2",
+        "4": " trvanlivosti."
+      }
+    }
+  }
+}

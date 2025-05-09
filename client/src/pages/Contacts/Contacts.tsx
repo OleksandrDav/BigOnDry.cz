@@ -2,13 +2,15 @@ import React from "react";
 import Slider from "../../components/Slider/Slider";
 import styles from "./Contacts.module.css";
 import RequestInformation from "../../components/RequestInformation/RequestInformation";
+import { useTranslation } from "react-i18next";
 
 const Contacts: React.FC = () => {
+  const { t } = useTranslation('common');
   const slides = [
     {
       imageUrl:
         "https://www.bigondry.com/wp-content/uploads/2021/01/Foto-Essiccatoi-Dal-Lago--1024x683.jpg",
-      title: "Contacts",
+      title: t("contacts.sliderTitle"),
     },
   ];
 
@@ -19,58 +21,56 @@ const Contacts: React.FC = () => {
       </div>
 
       <div className={styles.contactsContainer}>
-        <h2 className={styles.companyName}>BIGonDRY Srl</h2>
+        <h2 className={styles.companyName}>{t("contacts.companyName")}</h2>
         <div className={styles.contactsContent}>
           <div className={styles.contactsColumn}>
             <div className={styles.officeSection}>
-              <h3 className={styles.officeTitle}>REGISTERED OFFICE:</h3>
+              <h3 className={styles.officeTitle}>{t("contacts.office1.title")}</h3>
               <address className={styles.address}>
-                Via Tozzi, 7<br />
-                36020 Pove del Grappa (VI)
+                {t("contacts.office1.line1")}
                 <br />
-                Italia
+                {t("contacts.office1.line2")}
+                <br />
+                {t("contacts.office1.line3")}
               </address>
             </div>
 
             <div className={styles.officeSection}>
               <h3 className={styles.officeTitle}>
-                ADMINISTRATIVE OFFICE / PRODUCTION:
+                {t("contacts.office2.title")}
               </h3>
               <address className={styles.address}>
-                Viale G. Falcone, 30
+                {t("contacts.office2.line1")}
                 <br />
-                31037 Castione di Loria (TV)
+                {t("contacts.office2.line2")}
                 <br />
-                Italia
+                {t("contacts.office2.line3")}
               </address>
             </div>
 
             <div className={styles.officeSection}>
-              <h3 className={styles.officeTitle}>DUBAI – ABU DHABI</h3>
+              <h3 className={styles.officeTitle}>{t("contacts.office3.title")}</h3>
               <address className={styles.address}>
-                48 Burj Gate, 10th Floor, room #1001, Downtown, Dubai (UAE)
+                {t("contacts.office3.line1")}
               </address>
               <address className={styles.address}>
-                7th Floor, CI Tower, khalidiya Area, Abu Dhabi (UAE)
+                {t("contacts.office3.line2")}
               </address>
-              <p className={styles.contactDetail}>
-                <strong>Ph.:</strong> +971 4 321 62 60
-              </p>
             </div>
           </div>
 
           <div className={styles.contactsColumn}>
             <div className={styles.contactInfo}>
               <p>
-                <strong>Mail:</strong>{" "}
+                <strong>{t("contacts.contact.mail")}</strong>{" "}
                 <a href="mailto:info@bigondry.cz">info@bigondry.cz</a>
                 <br />
                 <span className={styles.preferredContact}>
-                  (Preferred contact method)
+                  {t("contacts.contact.preferred")}
                 </span>
               </p>
               <p>
-                <strong>Tel.</strong> +420 774 675 607
+                <strong>{t("contacts.contact.tel")}</strong> +420 774 675 607
               </p>
             </div>
           </div>

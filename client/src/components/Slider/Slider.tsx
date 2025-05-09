@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import styles from "./Slider.module.css";
 import { Slide } from "../../types/types";
 import RequestInformation from "../RequestInformation/RequestInformation";
+import { useTranslation } from "react-i18next";
 
 interface SliderProps {
   slides: Slide[];
@@ -10,6 +11,7 @@ interface SliderProps {
 }
 
 const Slider: React.FC<SliderProps> = ({ slides, height = "100vh", popup = true }) => {
+  const { t } = useTranslation('common');
   const [currentSlide, setCurrentSlide] = useState(0);
   const [showRequestInfo, setShowRequestInfo] = useState(false);
 
@@ -22,22 +24,20 @@ const Slider: React.FC<SliderProps> = ({ slides, height = "100vh", popup = true 
   };
 
   useEffect(() => {
-    // Only set interval if there's more than one slide
     if (slides.length > 1) {
       const intervalId = setInterval(() => {
         nextSlide();
       }, 5000);
-
       return () => clearInterval(intervalId);
     }
   }, [nextSlide, slides.length]);
 
   const toggleRequestInfoPopup = () => {
-    setShowRequestInfo(!showRequestInfo);
+    setShowRequestInfo((prev) => !prev);
   };
 
   const sliderStyle = {
-    height: height
+    height: height,
   };
 
   return (
@@ -45,9 +45,7 @@ const Slider: React.FC<SliderProps> = ({ slides, height = "100vh", popup = true 
       {slides.map((slide, index) => (
         <div
           key={index}
-          className={`${styles.slide} ${
-            index === currentSlide ? styles.active : ""
-          }`}
+          className={`${styles.slide} ${index === currentSlide ? styles.active : ""}`}
           style={{ backgroundImage: `url(${slide.imageUrl})` }}
         >
           <div className={styles.slideOverlay}></div>
@@ -57,35 +55,44 @@ const Slider: React.FC<SliderProps> = ({ slides, height = "100vh", popup = true 
         </div>
       ))}
 
-      {/* Only show navigation if there's more than one slide */}
       {slides.length > 1 && (
         <div className={styles.navigation}>
-          <button onClick={prevSlide} className={styles.navButton}>
+          <button
+            onClick={prevSlide}
+            className={styles.navButton}
+            aria-label={t("slider.previous")}
+          >
             &lt;
           </button>
-          <button onClick={nextSlide} className={styles.navButton}>
+          <button
+            onClick={nextSlide}
+            className={styles.navButton}
+            aria-label={t("slider.next")}
+          >
             &gt;
           </button>
         </div>
       )}
 
-      {/* Request Information Button */}
       {popup && (
         <div className={styles.requestButtonContainer}>
-          <button 
+          <button
             className={styles.requestButton}
             onClick={toggleRequestInfoPopup}
           >
-            Request Information
+            {t("slider.requestInformation")}
           </button>
         </div>
       )}
 
-      {/* Request Information Popup */}
       {showRequestInfo && (
-        <div className={styles.popupOverlay}>
-          <div className={styles.popup}>
-            <button className={styles.closeButton} onClick={toggleRequestInfoPopup}>
+        <div className={styles.popupOverlay} onClick={toggleRequestInfoPopup}>
+          <div className={styles.popup} onClick={(e) => e.stopPropagation()}>
+            <button
+              className={styles.closeButton}
+              onClick={toggleRequestInfoPopup}
+              aria-label={t("slider.closePopup")}
+            >
               ✕
             </button>
             <RequestInformation slider={true} />

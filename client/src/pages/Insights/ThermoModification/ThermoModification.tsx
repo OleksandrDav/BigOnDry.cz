@@ -5,8 +5,10 @@ import { WoodType } from "../../../types/types";
 import { WOOD_TYPES } from "../../../constants/woodTypes";
 import { ChevronLeft, ChevronRight } from "react-feather";
 import RequestInformation from "../../../components/RequestInformation/RequestInformation";
+import { useTranslation } from "react-i18next";
 
 const ThermoModification: React.FC = () => {
+  const { t } = useTranslation("woodTypes");
   const [selectedWoodType, setSelectedWoodType] = useState<WoodType>(
     WOOD_TYPES[0]
   );
@@ -28,7 +30,7 @@ const ThermoModification: React.FC = () => {
 
       <div className={styles.container}>
         <div className={styles.woodTypesSection}>
-          <h2 className={styles.sectionTitle}>Wood Type Characteristics</h2>
+          <h2 className={styles.sectionTitle}>{t("woodTypeCharacteristics")}</h2>
 
           <div className={styles.woodSelector}>
             {WOOD_TYPES.map((wood) => (
@@ -39,14 +41,14 @@ const ThermoModification: React.FC = () => {
                 }`}
                 onClick={() => setSelectedWoodType(wood)}
               >
-                {wood.name}
+                {t(`${wood.name}.name`)}
               </button>
             ))}
           </div>
 
           <div className={styles.woodInfo}>
-            <h2 className={styles.woodName}>{selectedWoodType.name}</h2>
-            <h3 className={styles.woodTitle}>{selectedWoodType.title}</h3>
+            <h2 className={styles.woodName}>{t(`${selectedWoodType.name}.name`)}</h2>
+            <h3 className={styles.woodTitle}>{t(`${selectedWoodType.name}.title`)}</h3>
 
             <div className={styles.description}>
               {selectedWoodType.description.map((paragraph, pIndex) => (
@@ -56,7 +58,7 @@ const ThermoModification: React.FC = () => {
                       key={tIndex}
                       className={`${textBlock.isBold ? styles.boldText : ""}`}
                     >
-                      {textBlock.text}
+                      {t(`${selectedWoodType.name}.description.${pIndex}.${tIndex}`)}
                     </span>
                   ))}
                 </p>
@@ -71,7 +73,7 @@ const ThermoModification: React.FC = () => {
                     alt={char.name}
                     className={styles.characteristicIcon}
                   />
-                  <div className={styles.characteristicName}>{char.name}</div>
+                  <div className={styles.characteristicName}>{t(`characteristics.${char.name}`)}</div>
                   <div className={styles.characteristicDots}>
                     {Array.from({ length: 5 }).map((_, i) => (
                       <span
@@ -87,7 +89,7 @@ const ThermoModification: React.FC = () => {
             </div>
 
             <div className={styles.carouselContainer}>
-              <h4>Examples of thermal variation</h4>
+              <h4>{t("examplesOfThermalVariation")}</h4>
               <div className={styles.carousel} ref={carouselRef} key={selectedWoodType.id}>
                 {selectedWoodType.temperatureAppearances.map((appearance) => (
                   <div
@@ -105,7 +107,7 @@ const ThermoModification: React.FC = () => {
                     </div>
                     {appearance.description && (
                       <p className={styles.carouselDescription}>
-                        {appearance.description}
+                        {t(`${selectedWoodType.name}.temperatureAppearances.${appearance.temperature}`)}
                       </p>
                     )}
                   </div>

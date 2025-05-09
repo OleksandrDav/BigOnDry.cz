@@ -1,0 +1,22 @@
+{
+   "sections": {
+     "company": "Company",
+     "products": "Products",
+     "insights": "Insights"
+   },
+   "links": {
+     "homepage": "Homepage",
+     "company": "Company",
+     "contacts": "Contacts",
+     "drying-kilns": "Drying Kilns",
+     "heat-treatment-plants-(ispm-15)": "Heat Treatment Plants (ISPM-15)",
+     "thermal-modification-kilns": "Thermal Modification Kilns",
+     "steaming-chambers": "Steaming Chambers",
+     "biomass-drying-systems": "Biomass Drying Systems",
+     "spare-parts-and-assistance": "Spare parts and Assistance",
+     "why-to-dry-the-wood": "Why to dry the wood?",
+     "why-to-do-ispm-15-treatment": "Why to do ISPM-15 treatment?",
+     "why-to-thermo-modify-the-wood": "Why to thermo-modify the wood?",
+     "why-to-vaporize-the-wood": "Why to vaporize the wood?"
+   }
+ }

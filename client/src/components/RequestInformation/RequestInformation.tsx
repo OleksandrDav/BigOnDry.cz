@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./RequestInformation.module.css";
+import { useTranslation } from "react-i18next";
 
 const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:5000";
 
@@ -20,6 +21,7 @@ interface ValidationErrors {
 }
 
 const RequestInformation: React.FC<RequestInformationProps> = ({ slider }) => {
+  const { t } = useTranslation('common');
   const [formData, setFormData] = useState<FormData>({
     name: "",
     email: "",
@@ -38,32 +40,28 @@ const RequestInformation: React.FC<RequestInformationProps> = ({ slider }) => {
   const validateForm = (): boolean => {
     const newErrors: ValidationErrors = {};
 
-    // Name validation
     if (!formData.name) {
-      newErrors.name = "Name is required";
+      newErrors.name = t("requestInformation.errors.nameRequired");
     } else if (formData.name.length < 2 || formData.name.length > 62) {
-      newErrors.name = "Name must be between 2 and 62 characters";
+      newErrors.name = t("requestInformation.errors.nameLength");
     }
 
-    // Email validation
     if (!formData.email) {
-      newErrors.email = "Email is required";
+      newErrors.email = t("requestInformation.errors.emailRequired");
     } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
-      newErrors.email = "Invalid email format";
+      newErrors.email = t("requestInformation.errors.emailInvalid");
     }
 
-    // Company validation
     if (!formData.company) {
-      newErrors.company = "Company is required";
+      newErrors.company = t("requestInformation.errors.companyRequired");
     } else if (formData.company.length < 2 || formData.company.length > 100) {
-      newErrors.company = "Company must be between 2 and 100 characters";
+      newErrors.company = t("requestInformation.errors.companyLength");
     }
 
-    // Message validation
     if (!formData.message) {
-      newErrors.message = "Message is required";
+      newErrors.message = t("requestInformation.errors.messageRequired");
     } else if (formData.message.length < 5 || formData.message.length > 5000) {
-      newErrors.message = "Message must be between 5 and 5000 characters";
+      newErrors.message = t("requestInformation.errors.messageLength");
     }
 
     setErrors(newErrors);
@@ -71,15 +69,10 @@ const RequestInformation: React.FC<RequestInformationProps> = ({ slider }) => {
   };
 
   const handleChange = (
-    e: React.ChangeEvent<
-      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
-    >
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
+    setFormData({ ...formData, [name]: value });
   };
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -91,18 +84,15 @@ const RequestInformation: React.FC<RequestInformationProps> = ({ slider }) => {
       try {
         const response = await fetch(`${BASE_URL}/api/appeal/create`, {
           method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
+          headers: { "Content-Type": "application/json" },
           body: JSON.stringify(formData),
         });
 
         if (response.ok) {
           setSubmitMessage({
-            text: "Thank you! Your request has been sent successfully.",
+            text: t("requestInformation.success"),
             isError: false,
           });
-          // Reset form after successful submission
           setFormData({
             name: "",
             email: "",
@@ -113,16 +103,13 @@ const RequestInformation: React.FC<RequestInformationProps> = ({ slider }) => {
         } else {
           const errorData = await response.json();
           setSubmitMessage({
-            text:
-              errorData.message ||
-              "Failed to submit the form. Please try again.",
+            text: errorData.message || t("requestInformation.failure"),
             isError: true,
           });
         }
-      } catch (error) {
-        console.log(error);
+      } catch {
         setSubmitMessage({
-          text: "An unexpected error occurred. Please try again later.",
+          text: t("requestInformation.error"),
           isError: true,
         });
       } finally {
@@ -135,23 +122,22 @@ const RequestInformation: React.FC<RequestInformationProps> = ({ slider }) => {
     backgroundColor: "#f8f8f8",
     padding: "0rem 2rem",
   };
+
   return (
     <div
       className={slider ? undefined : styles.requestInformation}
       style={slider ? containerStyle : undefined}
     >
       <div className={styles.container}>
-        <h2 className={styles.title}>Request Information</h2>
-        <p className={styles.subtitle}>
-          Fill out the form below and our team will get back to you as soon as
-          possible.
-        </p>
+        <h2 className={styles.title}>{t("requestInformation.title")}</h2>
+        <p className={styles.subtitle}>{t("requestInformation.subtitle")}</p>
 
         <form onSubmit={handleSubmit} className={styles.form}>
           <div className={styles.formGrid}>
             <div className={styles.formGroup}>
               <label htmlFor="name" className={styles.label}>
-                Full Name <span className={styles.required}>*</span>
+                {t("requestInformation.fields.name")}{" "}
+                <span className={styles.required}>*</span>
               </label>
               <input
                 type="text"
@@ -162,7 +148,7 @@ const RequestInformation: React.FC<RequestInformationProps> = ({ slider }) => {
                 className={`${styles.input} ${
                   errors.name ? styles.inputError : ""
                 }`}
-                placeholder="Your full name"
+                placeholder={t("requestInformation.placeholders.name")}
               />
               {errors.name && (
                 <span className={styles.errorMessage}>{errors.name}</span>
@@ -171,7 +157,8 @@ const RequestInformation: React.FC<RequestInformationProps> = ({ slider }) => {
 
             <div className={styles.formGroup}>
               <label htmlFor="email" className={styles.label}>
-                Email <span className={styles.required}>*</span>
+                {t("requestInformation.fields.email")}{" "}
+                <span className={styles.required}>*</span>
               </label>
               <input
                 type="email"
@@ -182,7 +169,7 @@ const RequestInformation: React.FC<RequestInformationProps> = ({ slider }) => {
                 className={`${styles.input} ${
                   errors.email ? styles.inputError : ""
                 }`}
-                placeholder="your.email@example.com"
+                placeholder={t("requestInformation.placeholders.email")}
               />
               {errors.email && (
                 <span className={styles.errorMessage}>{errors.email}</span>
@@ -191,7 +178,8 @@ const RequestInformation: React.FC<RequestInformationProps> = ({ slider }) => {
 
             <div className={styles.formGroup}>
               <label htmlFor="company" className={styles.label}>
-                Company <span className={styles.required}>*</span>
+                {t("requestInformation.fields.company")}{" "}
+                <span className={styles.required}>*</span>
               </label>
               <input
                 type="text"
@@ -202,7 +190,7 @@ const RequestInformation: React.FC<RequestInformationProps> = ({ slider }) => {
                 className={`${styles.input} ${
                   errors.company ? styles.inputError : ""
                 }`}
-                placeholder="Your company name"
+                placeholder={t("requestInformation.placeholders.company")}
               />
               {errors.company && (
                 <span className={styles.errorMessage}>{errors.company}</span>
@@ -211,7 +199,7 @@ const RequestInformation: React.FC<RequestInformationProps> = ({ slider }) => {
 
             <div className={styles.formGroup}>
               <label htmlFor="phone" className={styles.label}>
-                Phone Number
+                {t("requestInformation.fields.phone")}
               </label>
               <input
                 type="tel"
@@ -220,14 +208,15 @@ const RequestInformation: React.FC<RequestInformationProps> = ({ slider }) => {
                 value={formData.phone}
                 onChange={handleChange}
                 className={styles.input}
-                placeholder="+420 123 456 789"
+                placeholder={t("requestInformation.placeholders.phone")}
               />
             </div>
           </div>
 
           <div className={styles.formGroup}>
             <label htmlFor="message" className={styles.label}>
-              Message <span className={styles.required}>*</span>
+              {t("requestInformation.fields.message")}{" "}
+              <span className={styles.required}>*</span>
             </label>
             <textarea
               id="message"
@@ -238,7 +227,7 @@ const RequestInformation: React.FC<RequestInformationProps> = ({ slider }) => {
                 errors.message ? styles.inputError : ""
               }`}
               rows={5}
-              placeholder="Please provide details about your request..."
+              placeholder={t("requestInformation.placeholders.message")}
             ></textarea>
             {errors.message && (
               <span className={styles.errorMessage}>{errors.message}</span>
@@ -260,7 +249,9 @@ const RequestInformation: React.FC<RequestInformationProps> = ({ slider }) => {
               className={styles.submitButton}
               disabled={isSubmitting}
             >
-              {isSubmitting ? "Sending..." : "Submit Request"}
+              {isSubmitting
+                ? t("requestInformation.submitting")
+                : t("requestInformation.submit")}
             </button>
           </div>
         </form>

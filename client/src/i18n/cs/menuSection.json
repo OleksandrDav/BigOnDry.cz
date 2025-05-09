@@ -1,0 +1,22 @@
+{
+   "sections": {
+     "company": "Společnost",
+     "products": "Produkty",
+     "insights": "Informace"
+   },
+   "links": {
+     "homepage": "Domů",
+     "company": "Společnost",
+     "contacts": "Kontakty",
+     "drying-kilns": "Sušárny dřeva",
+     "heat-treatment-plants-(ispm-15)": "Tepelné úpravny (ISPM-15)",
+     "thermal-modification-kilns": "Termomodifikační pece",
+     "steaming-chambers": "Napařovací komory",
+     "biomass-drying-systems": "Systémy pro sušení biomasy",
+     "spare-parts-and-assistance": "Náhradní díly a servis",
+     "why-to-dry-the-wood": "Proč sušit dřevo?",
+     "why-to-do-ispm-15-treatment": "Proč provádět ISPM-15 ošetření?",
+     "why-to-thermo-modify-the-wood": "Proč termicky upravovat dřevo?",
+     "why-to-vaporize-the-wood": "Proč napařovat dřevo?"
+   }
+ }
