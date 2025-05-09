@@ -1,0 +1,126 @@
+{
+  "woodTypeCharacteristics": "Charakteristika druhov dreva",
+  "examplesOfThermalVariation": "Príklady tepelnej modifikácie",
+  "characteristics": {
+    "Waterproofness": "Vodotesnosť",
+    "Elasticity": "Pružnosť",
+    "Swelling": "Bobtnanie",
+    "Durability": "Trvanlivosť",
+    "Pressure": "Tlaková odolnosť"
+  },
+  "Spruce": {
+    "name": "Smrek",
+    "title": "Picea abies Karst.",
+    "description": {
+      "0": {
+        "0": "Smrek je rozšírený v Európe a strednej Ázii, je vhodný pre alpské podnebie a má schopnosť prispôsobiť sa klimatickým podmienkam, v ktorých sa nachádza, vývojom vhodných charakteristík. Je ľahko opracovateľný a má priaznivé vlastnosti pre výrobu hudobných nástrojov a pre vnútorné stavebné využitie. Tepelná úprava vykonaná v zariadení BIGonDRY THW má vplyv na fyzikálne a mechanické vlastnosti smrekového dreva. Má obzvlášť pozitívne dôsledky, pokiaľ ide o ",
+        "1": "rozmerovú stabilitu",
+        "2": " parametre a trvanlivosť dosahujúcu ",
+        "3": "triedu 2"
+      }
+    }
+  },
+  "Douglas": {
+    "name": "Duglaska",
+    "title": "Pseudotsuga menziesii",
+    "description": {
+      "0": {
+        "0": "Duglaska pochádza zo západného pobrežia Spojených štátov amerických, preferuje mierne a vlhké podnebie. Je to jedna z najvyšších rastlín na svete, jej kmeň môže dosiahnuť výšku 75 m, ale priemer zostáva stredne obmedzený. Používa sa v stavebníctve: lode, mosty, domy, stolárstvo všeobecne, železničné nápravy, práve vďaka svojej ľahkosti, pevnosti, pružnosti a odolnosti voči poveternostným vplyvom. Tepelná úprava vykonaná v zariadení BIGonDRY THW má vplyv na fyzikálne a mechanické vlastnosti. Minimálne ovplyvňuje hustotu tepelne upraveného materiálu pri rôznych teplotách, ale má veľmi pozitívny vplyv na rozmerovú stabilitu. Pokiaľ ide o ",
+        "1": "trvanlivosť ",
+        "2": "dochádza k zlepšeniu triedy v závislosti od teploty tepelnej úpravy, dosahuje sa ",
+        "3": "triedy 2",
+        "4": "."
+      }
+    }
+  },
+  "Scots Pine": {
+    "name": "Borovica lesná",
+    "title": "Pinus sylvestris L",
+    "description": {
+      "0": {
+        "0": "Je to najrozšírenejší ihličnan v Európe, má veľmi vysokú prispôsobivosť rôznym klimatickým podmienkam a pôdam. Používa sa v stavebníctve, stolárstve, nábytkárstve a pre výrobu papierovej buničiny. Tepelná úprava vykonaná v zariadení BIGonDRY THW má vplyv na fyzikálne a mechanické vlastnosti borovicového dreva. Má obzvlášť pozitívne dôsledky, pokiaľ ide o ",
+        "1": "rozmerovú stabilitu",
+        "2": " parametre a trvanlivosť dosahujúcu ",
+        "3": "triedu 2"
+      }
+    }
+  },
+  "Maritime Pine": {
+    "name": "Borovica prímorská",
+    "title": "Pinus pinaster Aiton",
+    "description": {
+      "0": {
+        "0": "Borovica prímorská sa vyvíja hlavne v blízkosti pobrežia Stredozemného mora, v skutočnosti vďačí za svoj názov svojej predispozícii rásť v piesočnatých oblastiach. Vyvíja veľmi vysoké kmene a je ovládaná korunou tvorenou hustými zelenými ihličkami. Veľa sa používa pre extrakciu svojej živice, menej pre vlastné drevo, napriek tomu, že je ľahko opracovateľné. Tepelná úprava vykonaná v zariadení BIGonDRY THW má ",
+        "1": "veľmi pozitívny účinok na zvýšenie rozmerovej stability a tlakovej pevnosti. ",
+        "2": "Parameter, ktorý je tepelnou úpravou najviac pozitívne ovplyvnený, je ",
+        "3": "trvanlivosť. ",
+        "4": "Zlepšenia sú obzvlášť viditeľné pri vysokých teplotách, pri ktorých je dosiahnuté ",
+        "5": "trieda 1",
+        "6": "."
+      }
+    }
+  },
+  "Beech": {
+    "name": "Buk",
+    "title": "Fagus sylvatica L.",
+    "description": {
+      "0": {
+        "0": "Buk má vďaka svojej schopnosti prispôsobiť sa rastu v rôznych klimatických podmienkach rozmanité rozšírenie. Je to veľmi dlhoveká, pomaly rastúca rastlina, charakterizovaná mierne zužujúcimi sa kmeňmi a veľmi tenkou sivosivou kôrou. Jeho drevo je cené pre svoju tvrdosť a kompaktnosť, čo ho robí vhodným pre výrobu nábytku, kuchynského náčinia a pre sústruženie. Výhody prinášané tepelnou modifikáciou z hľadiska rozmerovej stability sú značné: dosahuje sa účinnosť proti bobtnaniu takmer 60%. ",
+        "1": "Trvanlivosť sa mení z triedy 5 na triedu 2 ",
+        "2": "čo má extrémne pozitívny účinok a výrazne predlžuje očakávanú životnosť dreva."
+      }
+    }
+  },
+  "Ash": {
+    "name": "Jaseň",
+    "title": "Fraxinus spp.",
+    "description": {
+      "0": {
+        "0": "Jaseň má tendenciu rásť v prostrediach s miernym podnebím. Vyvíja sa veľmi vysoký s valcovitým a obzvlášť rovným kmeňom. Silne známy pre použitie, ktoré možno vyrobiť z kôry a listov na liečebné a liečivé účely, a tiež vynikajúci ako palivo, a teda pre výrobu palivového dreva a cenení pre svoju ľahké spracovanie, odolnosť a pružnosť. Tepelná úprava prináša veľký prospech z hľadiska rozmerovej stability, účinnosť proti spätnému vstrebávaniu vlhkosti a následnému bobtnaniu bude viac ako dvojnásobná v porovnaní s neošetreným materiálom. ",
+        "1": "Trvanlivosť ",
+        "2": "je vlastnosť, ktorá je tepelnou úpravou najviac pozitívne ovplyvnená a v skutočnosti ",
+        "3": "dosahuje triedu 1."
+      }
+    }
+  },
+  "Poplar": {
+    "name": "Topoľ",
+    "title": "Populus spp.",
+    "description": {
+      "0": {
+        "0": "Topoľ je rozšírený po celej severnej pologuli, kôra je hladká u mladých exemplárov a časom sa stáva drsnou. Farba dreva má tendenciu byť bielo-svetlo žltá. Je vysoko cenení pre svoju ľahkosť a používa sa v papierenskom priemysle, obalovom priemysle a výrobe preglejkových panelov. Tepelná úprava vykonaná v zariadení BIGonDRY THW má veľmi ",
+        "1": "pozitívny účinok na rozmerovú stabilitu,",
+        "2": " zlepšuje ju asi o 50%. Pozitívne účinky tepelnej úpravy sú tiež viditeľné v parametroch tlakovej pevnosti a modulu pružnosti. Najprekvapivejší údaj je však ",
+        "3": " zlepšenie trvanlivosti, ktoré dosahuje triedu 1",
+        "4": " s tepelnou úpravou."
+      }
+    }
+  },
+  "Oak": {
+    "name": "Dub",
+    "title": "Quercus petraea Liebl.",
+    "description": {
+      "0": {
+        "0": "Dub je rozšírený po celej Európe s výnimkou talianskych ostrovov. Preferuje teda kontinentálne podnebie a vystupuje do nadmorských výšok až 1000 metrov. Jeho prirodzené drevo je považované za cenné pre svoju hustotu a hmotnosť a pre svetlo hnedú farbu. Používa sa pre výrobu podláh, nábytku a sudov na zrenie jemných likérov. Tepelná úprava vykonaná v zariadení BIGonDRY THW prináša významné zlepšenie z hľadiska rozmerovej stability, účinky ",
+        "1": "spätného vstrebávania vlhkosti a bobtnania ",
+        "2": "spôsobené rovnakým sú ",
+        "3": "znížené o 55%. ",
+        "4": "Trvanlivosť je už u prirodzeného dreva veľmi dobrá, ",
+        "5": "úprava túto vlastnosť ešte zlepšuje."
+      }
+    }
+  },
+  "Tulipier": {
+    "name": "Liliovník tulipánokvetý",
+    "title": "Liriodendron tulipifera L.",
+    "description": {
+      "0": {
+        "0": "Liliovník tulipánokvetý je druh dreva pochádzajúci zo Spojených štátov amerických, presnejšie z východnej časti. Je však tiež pestovaný po celej Európe ako okrasná rastlina. Ako strom, ktorý rastie vysoko a rovno, poskytuje drevo, ktoré so svojimi charakteristikami spracovateľnosti, stability a špecifickej hmotnosti hodí pre veľké množstvo použití. Má belavú farbu, zreteľné žilkovanie s tmavými alebo nazelenalými plameňmi. Tepelná úprava vykonaná systémom BIGonDRY THW má pozitívne účinky týkajúce sa rozmerovej stability, ktoré definujú ",
+        "1": "zlepšenie hygroskopickej účinnosti a proti bobtnaniu, ktoré dosahuje až 50%",
+        "2": "Očakávaná životnosť tohto druhu dreva sa po tepelnej úprave výrazne predlžuje, v skutočnosti sme dosiahli ",
+        "3": "triedu 2",
+        "4": " trvanlivosti."
+      }
+    }
+  }
+}

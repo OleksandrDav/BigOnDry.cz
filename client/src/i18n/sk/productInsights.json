@@ -1,0 +1,53 @@
+{
+  "sectionTitle": "Produktové informácie",
+  "items": [
+    {
+      "title": "Systémy s priamym plynovým horákom",
+      "description": "Systém pracujúci s priamym plynovým horákom umožňuje dosiahnuť vysoké teploty v krátkom čase a tým urýchliť cykly. Tiež nevyžaduje kotol a súvisiace náklady na správu."
+    },
+    {
+      "title": "Tradičný systém s teplovodnými cievkami",
+      "description": "Sušiarne s teplovodným vykurovacím systémom. Tento systém umožňuje využívať drevný odpad, najmä ak je k dispozícii vo veľkom množstve. BIGonDRY môže dodať aj kotol a hydraulický okruh."
+    },
+    {
+      "title": "„Tunelová“ sušiareň",
+      "description": "Sušiarne vybavené podvozkom na nakladanie zo spodnej strany. Hodia sa najmä na rýchle sušiace cykly a poskytujú výhodu nízkych prevádzkových nákladov vďaka optimalizácii času nakladania a vykladania."
+    },
+    {
+      "title": "Predsušiace zariadenia",
+      "description": "Skladovacie zariadenia a predsušiace jednotky sú skutočnou alternatívou k prirodzenému sušeniu dreva, najmä pri poškodení kvality dreva náhlymi zmenami počasia. Tieto logistické riešenia na skladovanie v klimatizovaných skladoch umožňujú znížiť vlhkosť čerstvo rezaného dreva na 20–25 % prostredníctvom neustáleho monitorovania environmentálnych parametrov, ako sú teplota a vlhkosť."
+    },
+    {
+      "title": "Aplikácia ISPM-15",
+      "description": "Softvér na kontrolu fázy tepelného ošetrenia v súlade s normou ISPM 15. <strong>NA STERILIZÁCIU DREVA</strong> počas 30 minút pri 56 °C. Systém obsahuje sondy na meranie teploty dreva. Softvér umožňuje ukladať údaje o procese a vytvárať správu plne v súlade s požiadavkami normy."
+    },
+    {
+      "title": "Priama a nepriama metóda",
+      "description": "BIGonDRY vás môže podporiť všetkými metódami požadovanými v každej krajine na svete. Softvér umožňuje ukladať údaje o procese a vytvárať správu plne v súlade s požiadavkami normy."
+    },
+    {
+      "title": "Vykurovacie systémy",
+      "description": "<strong>THW systémy</strong> od BIGonDRY sú vybavené priamym dvojstupňovým plynovým horákom vhodným na spaľovanie plynných palív. Generátor sa skladá z monobloku, ktorý zahŕňa spaľovaciu komoru s horákmi a výmenník tepla z nehrdzavejúcej ocele AISI 316."
+    },
+    {
+      "title": "Riadiaci systém",
+      "description": "Automatizácia riadenia systému THW umožňuje zákazníkovi vykonávať rôzne úkony, čím sa stroj stáva mimoriadne univerzálnym. Je možné sušiť, naparovať, sterilizovať podľa ISPM-15 a tepelne upravovať drevo až do 250 °C."
+    },
+    {
+      "title": "Veľkosti a modely",
+      "description": "Rada THW má čistú kapacitu od 4 m³ do približne 30 m³ s veľmi presným a sofistikovaným riadiacim systémom. Systém je dodávaný vopred zostavený, vhodný na prepravu kamiónom alebo kontajnerom. Na mieste je potrebné už len pripojenie, testovanie a uvedenie do prevádzky."
+    },
+    {
+      "title": "Priame naparovanie",
+      "description": "Para sa vstrekne do priestoru obsahujúceho drevo pomocou série perforovaných rúrok pod hromadou pozdĺž troch stien. Para musí byť nasýtená alebo takmer nasýtená, s maximálnym tlakom 0,3 baru (v potrubí) a musí sa v komore rozšíriť, až kým nedosiahne atmosférický tlak. Ak nemáte nasýtenú paru, musí byť zvlhčená (para sa fúka proti vode, ktorá je vedená pod parnou rúrkou v špeciálnom kanáli). Otvory v rúrkach musia smerovať k podlahe a nie na drevo, aby sa predišlo lokálnemu prehriatiu a vysušeniu."
+    },
+    {
+      "title": "Nepriame naparovanie",
+      "description": "Para sa vytvára priamo v naparovacej komore privádzaním vody obsiahnutej v špeciálnych nerezových nádržiach do varu, umiestnených pod úrovňou podlahy, pozdĺž troch stien mimo dverí, pod hromadou. V týchto nádržiach sa nachádza tradičná/priamá vykurovacia cievka, v ktorej prúdi prehriata voda/plyn ako tepelné médium. Pri použití tohto systému je potrebné udržiavať konštantnú hladinu vody v nádržiach."
+    },
+    {
+      "title": "Riadiaci systém",
+      "description": "Oba vyššie popísané systémy sú riadené mikroprocesorom, vyvinutým priamo spoločnosťou BIGonDRY Srl v spolupráci so softvérovou firmou. Tento systém umožňuje postupné riadenie fáz cyklu podľa času a teploty. Každý program možno zaregistrovať pomocou kódu, vyvolať, upraviť a znovu použiť pre nasledujúce cykly."
+    }
+  ]
+}
